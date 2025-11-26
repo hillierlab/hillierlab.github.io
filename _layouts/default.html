@@ -1,0 +1,553 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{ page.title }} | {{ site.title }}</title>
+
+<!-- Preload happy-state images -->
+<link rel="preload" as="image" href="/assets/images/h_brain_lashes6.png" />
+<link rel="preload" as="image" href="/assets/images/happy_window2.png" />
+<link rel="preload" as="image" href="/assets/images/happy_scenery.png" />
+<!-- Preload brain animation -->
+<link rel="preload" as="video" href="/assets/images/anim3.webm" type="video/webm" />
+
+<!-- Prepaint: set theme and block paint for one frame -->
+<script>
+(function () {
+  document.documentElement.classList.add('prep');
+  if (sessionStorage.getItem('hl_unlocked') === '1') {
+    document.documentElement.classList.add('happy', 'no-anim');
+    document.documentElement.style.background = '#fff';
+    document.documentElement.style.color = '#000';
+  } else {
+    document.documentElement.style.background = '#000';
+    document.documentElement.style.color = '#e0e0e0';
+  }
+})();
+</script>
+
+<style>
+  .projection.happy {
+  z-index: 4 !important;
+}
+  
+html, body {
+  margin: 0; height: 100%; width: 100%;
+  overflow: hidden;
+  font-family: "Georgia", serif;
+  display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+  background: #000; color: #e0e0e0;
+  transition: background-color 1.5s ease, color 1.5s ease;
+}
+
+/* Hide body for the very first frame to prevent flashes */
+html.prep body { visibility: hidden; }
+/* Disable transitions on first paint if we arrived unlocked */
+html.no-anim, html.no-anim * { transition: none !important; }
+
+/* ----------- NAVBAR ----------- */
+nav {
+  position: fixed; top: 0; left: 0;
+  width: 100%; height: 60px;
+  background: #000; color: #fff;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0 2.5rem; z-index: 10; border-bottom: 2px solid #fff;
+  transition: background-color 1.2s ease, color 1.2s ease, border-color 1.2s ease;
+}
+nav .brand {
+  font-weight: bold; font-size: 1.25rem;
+  transform: scale(1.25); transform-origin: left center;
+  text-decoration: none; color: inherit;
+  padding: 8px 14px; border-radius: 4px;
+  transition: all 0.3s ease;
+}
+nav .brand:hover { background: #fff; color: #000; }
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+  margin-left: 2rem;
+  padding-right: calc(1.5rem + 38px);
+  box-sizing: border-box;
+}
+
+.nav-links a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Hover background */
+html:not(.happy) .nav-links a:hover {
+  background: #fff;
+  color: #000;
+}
+html.happy .nav-links a:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* ACTIVE PAGE: show frame */
+.nav-links a.active {
+  border-color: currentColor;
+}
+
+nav a:focus { outline: none !important; }
+
+/* ----------- SCENE ----------- */
+.scene {
+  position: relative;
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.silhouette {
+  position: absolute; left: 4%; top: 20%;
+  width: 35vw; max-width: 800px; z-index: 1;
+}
+.silhouette img {
+  position: absolute; width: 100%; height: auto;
+  top: 0; left: 0; transition: opacity 1.2s ease;
+}
+.silhouette img.happy { opacity: 0; }
+html.happy .silhouette img.gloomy { opacity: 0; }
+html.happy .silhouette img.happy  { opacity: 1; }
+
+.projection {
+  position: absolute; right: 7%; top: 25%;
+  width: 30vw; max-width: 800px;
+  transition: opacity 1.2s ease; z-index: 1; opacity: 1;
+  z-index: 4;
+}
+.projection.happy { opacity: 0; }
+
+.brain {
+  position: absolute; top: 10%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw; max-width: 840px; z-index: 2;
+}
+.brain img {
+  width: 100%; height: auto;
+  display: block; position: absolute; top: 0; left: 0;
+  transition: opacity 1.2s ease;
+}
+.brain img.happy { opacity: 0; z-index: 2; }
+.brain img.gloomy { z-index: 1; }
+
+/* Brain animation overlay */
+.brain-animation {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 3;
+  background: transparent;
+}
+
+.lock {
+  position: absolute; top: 40%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  opacity: 0; transition: opacity 0.6s ease;
+  cursor: url('/assets/images/big_key2.png') 16 16, pointer;
+  z-index: 3;
+}
+.scene:hover .lock { opacity: 1; }
+
+.subtitle {
+  position: absolute; top: 68%;
+  width: 100%; text-align: center;
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  transition: color 1s ease;
+}
+
+/* ----------- RELOCK CONTROL ----------- */
+#relock-container {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  z-index: 5;
+}
+
+#relock-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px; /* space between lock and text */
+  background: none;
+  border: none;
+  padding: 8px 12px;
+  margin: 0;
+  font: inherit;
+  color: rgb(110, 110, 110);
+  cursor: url('/assets/images/grey_key.png') 10 10, pointer;
+}
+
+#relock-button img {
+  width: 200px;
+  max-width: 220px;
+  height: auto;
+  transform: translateY(40px); /* lower the lock visually */
+}
+
+#relock-button span {
+  font-size: 0.9rem;
+}
+
+/* ----------- CORNER LINKS ----------- */
+.corner-links {
+  position: fixed;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 4;
+  transition: opacity 1.5s ease;
+}
+.corner-links a {
+  position: absolute;
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-decoration: none;
+  color: inherit;
+  pointer-events: none;
+  transition: opacity 0.8s ease, color 0.6s ease, transform 0.6s ease;
+  max-width: 260px;
+  line-height: 1.2;
+  opacity: 0;
+  text-align: center;
+}
+.corner-links a:hover { transform: scale(1.05); }
+.corner-links a .corner-title {
+  display: block; font-size: 1.6rem;
+  font-weight: bold; line-height: 1.1;
+}
+.corner-top-left { top: 120px; left: 120px; text-align: left; }
+.corner-top-right { top: 120px; right: 120px; text-align: right; }
+.corner-bottom-left { bottom: 80px; left: 120px; text-align: left; }
+.corner-bottom-right { bottom: 80px; right: 120px; text-align: right; }
+
+/* ----------- HAPPY MODE ----------- */
+html.happy, html.happy body { background: #fff; color: #000; }
+html.happy nav { background: #fff; color: #000; border-bottom: 2px solid #000; }
+html.happy nav a:hover { background: #000; color: #fff; }
+html.happy .projection.gloomy, html.happy .brain img.gloomy { opacity: 0; }
+html.happy .projection.happy,  html.happy .brain img.happy  { opacity: 1; }
+html.happy .subtitle { color: #000; }
+html.happy .lock { display: none; }
+
+/* Enable corner link clicks when unlocked */
+html.happy .corner-links,
+html.happy .corner-links a {
+  pointer-events: auto;
+}
+</style>
+</head>
+
+<body>
+<nav>
+  <a href="/index.html" class="brand">HillierLab</a>
+  <div class="nav-links">
+    <a href="/vision.html"
+       class="{% if page.url contains '/vision' %}active{% endif %}">
+      Vision
+    </a>
+    <a href="/research.html"
+       class="{% if page.url contains '/research' %}active{% endif %}">
+      Research
+    </a>
+    <a href="/patients-teachers-students.html"
+       class="{% if page.url contains '/patients-teachers-students' %}active{% endif %}">
+      Patients, Teachers, Students
+    </a>
+    <a href="/team.html"
+       class="{% if page.url contains '/team' %}active{% endif %}">
+      Team
+    </a>
+    <a href="/collaborations.html"
+       class="{% if page.url contains '/collaborations' %}active{% endif %}">
+      Collaborations
+    </a>
+    <a href="/news-publications.html"
+       class="{% if page.url contains '/news-publications' %}active{% endif %}">
+      News & Publications
+    </a>
+    <a href="/contact.html"
+       class="{% if page.url contains '/contact' %}active{% endif %}">
+      Contact
+    </a>
+  </div>
+</nav>
+
+<div class="scene">
+  <div class="silhouette">
+    <img src="/assets/images/gloomy_window.png" class="gloomy" alt="Gloomy window" />
+    <img src="/assets/images/happy_window2.png"  class="happy"  alt="Happy window" />
+  </div>
+
+  <div class="brain" id="brain">
+    <img src="/assets/images/g_brain_lashes2.png" class="gloomy" alt="Gloomy brain" />
+    <img src="/assets/images/h_brain_lashes6.png" class="happy"  alt="Happy brain" />
+
+    <!-- Brain pipes animation overlay -->
+    <video id="brain-animation"
+           class="brain-animation"
+           preload="auto"
+           muted
+           playsinline>
+      <source src="/assets/images/anim3.webm" type="video/webm" />
+    </video>
+  </div>
+
+  <img src="/assets/images/lock_blue.png" class="lock" id="lock" alt="Lock" />
+
+  <img src="/assets/images/gloomy_scenery.png" class="projection gloomy" alt="Scary projection" />
+  <img src="/assets/images/happy_scenery.png"  class="projection happy"  alt="Happy projection" />
+
+  <div class="subtitle" id="subtitle">Unlocking the Mesoscale Level of the Brain</div>
+
+  <!-- RELOCK CONTROL -->
+  <div id="relock-container">
+    <button id="relock-button">
+      <img src="/assets/images/lock_grey.png" alt="Relock to dark mode" />
+      <span>Relock</span>
+    </button>
+  </div>
+
+  <div class="corner-links" id="corner-links">
+    <a href="/research.html#biotechnology" class="corner-top-left">
+      <span class="corner-title">BIOTECHNOLOGY</span><br />
+      providing cure not symptom treatment
+    </a>
+    <a href="/research.html#animal-models" class="corner-top-right">
+      <span class="corner-title">ANIMAL MODELS</span><br />
+      from idea to therapy
+    </a>
+    <a href="/research.html#healing" class="corner-bottom-left">
+      <span class="corner-title">HEALING</span><br />
+      brain circuits in adults
+    </a>
+    <a href="/streamlined" class="corner-bottom-right">
+      <span class="corner-title">STREAMLINED</span><br />
+      biologist-data scientist team
+    </a>
+  </div>
+</div>
+
+<script>
+const lock = document.getElementById('lock');
+const brainGloomy = document.querySelector('.brain img.gloomy');
+const brainHappy  = document.querySelector('.brain img.happy');
+const projGloomy  = document.querySelector('.projection.gloomy');
+const projHappy   = document.querySelector('.projection.happy');
+const subtitle    = document.getElementById('subtitle');
+const cornerLinks = document.getElementById('corner-links');
+const cornerAnchors = cornerLinks.querySelectorAll('a');
+const relockContainer = document.getElementById('relock-container');
+const relockButton = document.getElementById('relock-button');
+const brainAnim   = document.getElementById('brain-animation');
+
+let unlocked = sessionStorage.getItem('hl_unlocked') === '1';
+
+function showRelock() {
+  relockContainer.style.opacity = '1';
+  relockContainer.style.pointerEvents = 'auto';
+}
+
+function hideRelock() {
+  relockContainer.style.opacity = '0';
+  relockContainer.style.pointerEvents = 'none';
+}
+
+function startHappyTransition() {
+  // Avoid re-running this
+  if (document.documentElement.classList.contains('happy')) return;
+
+  document.documentElement.classList.add('happy');
+
+  brainGloomy.style.opacity = '0';
+  projGloomy.style.opacity  = '0';
+
+  setTimeout(() => {
+    brainHappy.style.opacity = '1';
+    projHappy.style.opacity  = '1';
+  }, 150);
+
+  cornerLinks.style.opacity = '1';
+  cornerAnchors.forEach((a, i) =>
+    setTimeout(() => (a.style.opacity = '1'), i * 500)
+  );
+
+  subtitle.textContent = 'Bridging the Gap Between Molecules and Behavior';
+  showRelock();
+}
+
+function applyUnlockedImmediate() {
+  document.documentElement.classList.add('happy');
+  lock.style.display = 'none';
+  brainGloomy.style.opacity = '0';
+  projGloomy.style.opacity  = '0';
+  brainHappy.style.opacity  = '1';
+  projHappy.style.opacity   = '1';
+  cornerLinks.style.opacity = '1';
+  cornerAnchors.forEach(a => a.style.opacity = '1');
+  subtitle.textContent = 'Bridging the Gap Between Molecules and Behavior';
+
+  if (brainAnim) {
+    brainAnim.pause();
+    brainAnim.style.opacity = '0';
+  }
+
+  showRelock();
+}
+
+if (unlocked) applyUnlockedImmediate();
+
+// LOCK CLICK: animation plays, transition starts 1s before animation ends
+lock.addEventListener('click', e => {
+  e.stopPropagation();
+  if (unlocked) return;
+  unlocked = true;
+  sessionStorage.setItem('hl_unlocked', '1');
+
+  // Fade out lock
+  lock.style.transition = 'opacity 0.8s ease';
+  lock.style.opacity = '0';
+  setTimeout(() => { lock.style.display = 'none'; }, 800);
+
+  if (!brainAnim) {
+    startHappyTransition();
+    return;
+  }
+
+  // Reset and show animation
+  brainAnim.currentTime = 0;
+  brainAnim.style.opacity = '1';
+  brainAnim.playbackRate = 0.77;
+
+  // DO NOT hide gloomy scenery anymore!
+  // Only hide gloomy brain.
+  brainGloomy.style.opacity = '0';
+  brainHappy.style.opacity  = '0';
+  // Leave projGloomy visible until transition
+
+  const fadeOutLead = 1.75;  // seconds before end to fade out animation + fade in happy brain
+  const transitionLead = 2.25; // seconds before end to transition page
+
+  let faded = false;
+  let transitioned = false;
+
+  function monitor() {
+    const dur = brainAnim.duration;
+    if (!dur || isNaN(dur)) return;
+
+    const t = brainAnim.currentTime;
+
+    // 1. Fade animation + reveal happy brain 2s before end
+    if (!faded && t >= dur - fadeOutLead) {
+      faded = true;
+      brainAnim.style.transition = 'opacity 1s ease';
+      brainAnim.style.opacity = '0';
+
+      // Fade in happy brain early
+      brainHappy.style.opacity = '1';
+    }
+
+    // 2. Start the rest of the transition 1s before end
+    if (!transitioned && t >= dur - transitionLead) {
+      transitioned = true;
+      startHappyTransition();  // background, scenery, corner links
+    }
+  }
+
+  brainAnim.addEventListener('timeupdate', monitor);
+
+  const playPromise = brainAnim.play();
+  if (playPromise && playPromise.catch) {
+    playPromise.catch(err => console.error(err));
+  }
+
+  brainAnim.addEventListener('ended', () => {
+    brainAnim.style.opacity = '0';
+    brainAnim.removeEventListener('timeupdate', monitor);
+
+    // Safety in case both triggers were missed
+    if (!faded) {
+      brainHappy.style.opacity = '1';
+      brainAnim.style.opacity = '0';
+    }
+    if (!transitioned) startHappyTransition();
+  }, { once: true });
+});
+
+// RELOCK FEATURE
+relockButton.addEventListener('click', function (e) {
+  e.preventDefault();
+
+  // Remove unlocked state
+  unlocked = false;
+  sessionStorage.removeItem('hl_unlocked');
+
+  // Switch visuals back to gloomy
+  document.documentElement.classList.remove('happy');
+
+  if (brainAnim) {
+    brainAnim.pause();
+    brainAnim.style.opacity = '0';
+  }
+
+  brainHappy.style.opacity  = '0';
+  projHappy.style.opacity   = '0';
+  brainGloomy.style.opacity = '1';
+  projGloomy.style.opacity  = '1';
+
+  subtitle.textContent = 'Unlocking the Mesoscale Level of the Brain';
+
+  // Hide corner links again
+  cornerLinks.style.opacity = '0';
+  cornerAnchors.forEach(a => a.style.opacity = '0');
+
+  // Show blue lock again
+  lock.style.display = 'block';
+  requestAnimationFrame(() => {
+    lock.style.opacity = '0';
+    requestAnimationFrame(() => {
+      lock.style.opacity = '1';
+    });
+  });
+
+  hideRelock();
+});
+
+// Reveal after first frame
+requestAnimationFrame(() => {
+  document.documentElement.classList.remove('prep', 'no-anim');
+  document.documentElement.style.background = '';
+  document.documentElement.style.color = '';
+});
+</script>
+
+</body>
+</html>
