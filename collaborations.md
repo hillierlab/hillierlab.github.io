@@ -2,7 +2,7 @@
 layout: page
 title: Collaborations
 ---
-<p>HUN-REN TTK 
+<p>HUN-REN TTK</p> 
 ERA-NET: Amblyopia, imaging techniques, behavioural methodologies.
 
 Institute of Molecular and Clinical Ophthalmology Basel (IOB): functional ultrasound imaging.
@@ -18,5 +18,5 @@ SE: Amblyopia, gene therapy.
 PPKE: Data analytics.
 
 Richter Neuropszichiátria Hálózat: feline-primate model translation.
-</p>
+
 
