@@ -30,7 +30,8 @@ The child’s brain is remarkably flexible – during development it constantly 
 Our research aims to understand how this “closed” state could be reopened and proper brain function restored in a targeted way. The key may lie in the brain’s mid-level – mesoscale – organizational units. These small, interconnected groups of nerve cells form a bridge between the cellular level and larger brain networks, playing a decisive role in how neural connections are formed and stabilized.
 If we can target and influence these units, we may be able to restore the adult brain’s ability to retune faulty connections – opening new possibilities for the treatment of developmental and mental disorders.
 
-*Explore our current research project/projects:*
+
+*Explore our current healing research projects*
 
 ### Understanding "Lazy Eye": How the Brain Predicts What We See
 
@@ -51,7 +52,7 @@ Animal models are essential for translating ideas about brain function into effe
 To overcome these limitations, we employ feline and primate models whose brain organization, sensory processing, and behavioral repertoires more closely mirror those of humans. These models allow us to both translate emerging biotechnologies—such as gene delivery systems and neuromodulation approaches—toward human application and investigate neural functions that cannot be meaningfully modeled in rodents.
 By studying these complex brains, we bridge the gap between basic neuroscience and clinical translation, advancing our understanding of human brain function and paving the way for therapies that can achieve true restoration rather than compensation.
 
-*Explore our current research project/projects:*
+*Explore our current animal-model research project*
 
 ### New Framework for Long-Term Neuronal Monitoring in Large Animals
 
