@@ -11,7 +11,9 @@ Our work develops next-generation biotechnologies aimed at repairing, rather tha
 A central challenge for brain-targeted therapies lies in achieving long-term efficacy and safety across species with complex neural architectures. To address this, we are refining viral vector systems for stable gene delivery and minimal immune activation, and developing robust assays to assess treatment compatibility—such as improved neutralizing antibody detection for AAV-based therapies.
 Because rodents do not fully recapitulate the organization or cognitive capacity of the human brain, we extend our studies to large-brained species, including cats and non-human primates. These models provide the necessary bridge between fundamental discovery and clinically viable approaches, guiding the development of biotechnologies capable of truly restorative outcomes.
 
-*Explore our current research project/projects:*
+
+
+*Explore our current research projects in biotechnology*
 
 ### New Standard for AAV Neutralizing Antibody Detection
 
