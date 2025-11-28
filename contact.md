@@ -10,6 +10,4 @@ HUN-REN Research Centre for Natural Sciences Institute of Cognitive Neuroscience
 
 1117 Budapest, Magyar tudósok körútja 2., Hungary
 
-hillier.daniel [at] ttk.hu
- 
-</p>
+hillier.daniel [at] ttk.hu</p>
