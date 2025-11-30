@@ -7,11 +7,11 @@ Our research is driven by the pursuit of new methods to answer fundamental quest
 
 ## Biotechnology
 
-Our work develops next-generation biotechnologies aimed at repairing, rather than compensating for, disrupted brain function. We focus on advancing molecular and gene delivery systems, neuromodulation technologies, and translational safety frameworks that enable durable and precise interventions in the adult brain.
-A central challenge for brain-targeted therapies lies in achieving long-term efficacy and safety across species with complex neural architectures. To address this, we are refining viral vector systems for stable gene delivery and minimal immune activation, and developing robust assays to assess treatment compatibility—such as improved neutralizing antibody detection for AAV-based therapies.
-Because rodents do not fully recapitulate the organization or cognitive capacity of the human brain, we extend our studies to large-brained species, including cats and non-human primates. These models provide the necessary bridge between fundamental discovery and clinically viable approaches, guiding the development of biotechnologies capable of truly restorative outcomes.
+<p>Our work develops next-generation biotechnologies aimed at repairing, rather than compensating for, disrupted brain function. We focus on advancing molecular and gene delivery systems, neuromodulation technologies, and translational safety frameworks that enable durable and precise interventions in the adult brain.</p>
 
+<p>A central challenge for brain-targeted therapies lies in achieving long-term efficacy and safety across species with complex neural architectures. To address this, we are refining viral vector systems for stable gene delivery and minimal immune activation, and developing robust assays to assess treatment compatibility—such as improved neutralizing antibody detection for AAV-based therapies.</p>
 
+<p>Because rodents do not fully recapitulate the organization or cognitive capacity of the human brain, we extend our studies to large-brained species, including cats and non-human primates. These models provide the necessary bridge between fundamental discovery and clinically viable approaches, guiding the development of biotechnologies capable of truly restorative outcomes.</p>
 
 *Explore our current research projects in biotechnology*
 
@@ -25,11 +25,11 @@ Genetically targeting specific brain cells is a powerful tool for understanding 
 
 ## Healing
 
-Why is it so difficult to cure diseases of the human brain?  
-The child’s brain is remarkably flexible – during development it constantly fine-tunes its neural connections: useful links are strengthened while unnecessary ones are eliminated. In adulthood, however, this flexibility – known as brain plasticity – is largely lost. As a result, the brain can no longer repair or reorganize its circuits after developmental disorders or mental illnesses, which contributes to the persistence of conditions such as amblyopia, attention deficit disorder, or depression.
-Our research aims to understand how this “closed” state could be reopened and proper brain function restored in a targeted way. The key may lie in the brain’s mid-level – mesoscale – organizational units. These small, interconnected groups of nerve cells form a bridge between the cellular level and larger brain networks, playing a decisive role in how neural connections are formed and stabilized.
-If we can target and influence these units, we may be able to restore the adult brain’s ability to retune faulty connections – opening new possibilities for the treatment of developmental and mental disorders.
+<p>Why is it so difficult to cure diseases of the human brain?</p>
 
+<p>The child’s brain is remarkably flexible – during development it constantly fine-tunes its neural connections: useful links are strengthened while unnecessary ones are eliminated. In adulthood, however, this flexibility – known as brain plasticity – is largely lost. As a result, the brain can no longer repair or reorganize its circuits after developmental disorders or mental illnesses, which contributes to the persistence of conditions such as amblyopia, attention deficit disorder, or depression.</p>
+
+<p>Our research aims to understand how this “closed” state could be reopened and proper brain function restored in a targeted way. The key may lie in the brain’s mid-level – mesoscale – organizational units. These small, interconnected groups of nerve cells form a bridge between the cellular level and larger brain networks, playing a decisive role in how neural connections are formed and stabilized. If we can target and influence these units, we may be able to restore the adult brain’s ability to retune faulty connections – opening new possibilities for the treatment of developmental and mental disorders.</p>
 
 *Explore our current healing research projects*
 
@@ -47,10 +47,13 @@ A persistent challenge in neuroscience is that traditional imaging techniques fo
 
 ## Animal models
 
-Animal models that facilitate ideas/theories translating to therapies.  
-Animal models are essential for translating ideas about brain function into effective therapies. While mice have been invaluable for identifying fundamental mechanisms, their sensory and cognitive systems differ markedly from those of humans. For example, a mouse’s limited visual acuity makes it an inadequate model for studying higher-order visual processing or for developing therapies to restore human vision.
-To overcome these limitations, we employ feline and primate models whose brain organization, sensory processing, and behavioral repertoires more closely mirror those of humans. These models allow us to both translate emerging biotechnologies—such as gene delivery systems and neuromodulation approaches—toward human application and investigate neural functions that cannot be meaningfully modeled in rodents.
-By studying these complex brains, we bridge the gap between basic neuroscience and clinical translation, advancing our understanding of human brain function and paving the way for therapies that can achieve true restoration rather than compensation.
+<p>Animal models that facilitate ideas/theories translating to therapies.  </p>
+
+<p>Animal models are essential for translating ideas about brain function into effective therapies. While mice have been invaluable for identifying fundamental mechanisms, their sensory and cognitive systems differ markedly from those of humans. For example, a mouse’s limited visual acuity makes it an inadequate model for studying higher-order visual processing or for developing therapies to restore human vision.</p>
+
+<p>To overcome these limitations, we employ feline and primate models whose brain organization, sensory processing, and behavioral repertoires more closely mirror those of humans. These models allow us to both translate emerging biotechnologies—such as gene delivery systems and neuromodulation approaches—toward human application and investigate neural functions that cannot be meaningfully modeled in rodents.</p>
+
+<p>By studying these complex brains, we bridge the gap between basic neuroscience and clinical translation, advancing our understanding of human brain function and paving the way for therapies that can achieve true restoration rather than compensation.</p>
 
 *Explore our current animal-model research project*
 
