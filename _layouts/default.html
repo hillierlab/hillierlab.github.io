@@ -10,7 +10,7 @@
 <link rel="preload" as="image" href="/assets/images/happy_window2.png" />
 <link rel="preload" as="image" href="/assets/images/happy_scenery.png" />
 <!-- Preload brain animation -->
-<link rel="preload" as="video" href="/assets/images/anim3.webm" type="video/webm" />
+<!--<link rel="preload" as="video" href="/assets/images/anim3.webm" type="video/webm" />-->
 
 <!-- Prepaint: set theme and block paint for one frame -->
 <script>
@@ -312,13 +312,23 @@ html.happy .corner-links a {
     <img src="/assets/images/h_brain_lashes6.png" class="happy"  alt="Happy brain" />
 
     <!-- Brain pipes animation overlay -->
-    <video id="brain-animation"
+    <!--<video id="brain-animation"
            class="brain-animation"
            preload="auto"
            muted
            playsinline>
       <source src="/assets/images/anim3.webm" type="video/webm" />
-    </video>
+    </video>-->
+  <video id="brain-animation"
+       class="brain-animation"
+       preload="auto"
+       muted
+       playsinline>
+  <source src="/assets/images/anim3.mov" type='video/quicktime; codecs="hvc1"'>
+
+  <source src="/assets/images/anim3.webm" type="video/webm" />
+  </video>
+    
   </div>
 
   <img src="/assets/images/lock_blue.png" class="lock" id="lock" alt="Lock" />
