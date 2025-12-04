@@ -1,18 +1,13 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{{ page.title }} | {{ site.title }}</title>
 
-<!-- Preload happy-state images -->
-<link rel="preload" as="image" href="/assets/images/h_brain_lashes6.png" />
-<link rel="preload" as="image" href="/assets/images/happy_window2.png" />
-<link rel="preload" as="image" href="/assets/images/happy_scenery.png" />
-<!-- Preload brain animation -->
-<!--<link rel="preload" as="video" href="/assets/images/anim3.webm" type="video/webm" />-->
+<link rel="preload" as="image" href="/assets/images/happy_composite.png" />
+<link rel="preload" as="image" href="/assets/images/gloomy_composite.png" />
 
-<!-- Prepaint: set theme and block paint for one frame -->
 <script>
 (function () {
   document.documentElement.classList.add('prep');
@@ -28,241 +23,300 @@
 </script>
 
 <style>
-  .projection.happy {
-  z-index: 4 !important;
-}
-  
-html, body {
-  margin: 0; height: 100%; width: 100%;
-  overflow: hidden;
-  font-family: "Georgia", serif;
-  display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
-  background: #000; color: #e0e0e0;
-  transition: background-color 1.5s ease, color 1.5s ease;
-}
+  /* =========================================
+      1. GLOBAL SETUP
+      ========================================= */
+  html, body {
+    margin: 0;
+    height: 100dvh;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Georgia", serif;
+    display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+    background: #000; color: #e0e0e0;
+    transition: background-color 1.5s ease, color 1.5s ease;
+    touch-action: none;
+  }
+   
+  html.prep body { visibility: hidden; }
+  html.no-anim, html.no-anim * { transition: none !important; }
 
-/* Hide body for the very first frame to prevent flashes */
-html.prep body { visibility: hidden; }
-/* Disable transitions on first paint if we arrived unlocked */
-html.no-anim, html.no-anim * { transition: none !important; }
+  /* =========================================
+      2. NAVBAR
+      ========================================= */
+  nav {
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 60px;
+    background: #000; color: #fff;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 0 2.5rem; z-index: 10; border-bottom: 2px solid #fff;
+    transition: background-color 1.2s ease, color 1.2s ease, border-color 1.2s ease;
+    box-sizing: border-box;
+    pointer-events: auto; 
+  }
+  nav .brand {
+    font-weight: bold; font-size: 1.25rem;
+    transform: scale(1.25); transform-origin: left center;
+    text-decoration: none; color: inherit;
+    padding: 8px 14px; border-radius: 4px;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+  }
+  nav .brand:hover { background: #fff; color: #000; }
 
-/* ----------- NAVBAR ----------- */
-nav {
-  position: fixed; top: 0; left: 0;
-  width: 100%; height: 60px;
-  background: #000; color: #fff;
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 0 2.5rem; z-index: 10; border-bottom: 2px solid #fff;
-  transition: background-color 1.2s ease, color 1.2s ease, border-color 1.2s ease;
-}
-nav .brand {
-  font-weight: bold; font-size: 1.25rem;
-  transform: scale(1.25); transform-origin: left center;
-  text-decoration: none; color: inherit;
-  padding: 8px 14px; border-radius: 4px;
-  transition: all 0.3s ease;
-}
-nav .brand:hover { background: #fff; color: #000; }
+  .nav-links {
+    display: flex; justify-content: flex-end; align-items: center;
+    gap: 1rem; flex-grow: 1; margin-left: 2rem;
+    padding-right: calc(1.5rem + 38px); box-sizing: border-box;
+  }
+  .nav-links a {
+    color: inherit; text-decoration: none;
+    font-weight: bold; font-size: 0.95rem;
+    padding: 8px 14px; border-radius: 6px;
+    border: 2px solid transparent;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    white-space: nowrap;
+  }
+  html:not(.happy) .nav-links a:hover { background: #fff; color: #000; }
+  html.happy .nav-links a:hover { background: #000; color: #fff; }
+  .nav-links a.active { border-color: currentColor; }
 
-.nav-links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 1rem;
-  flex-grow: 1;
-  margin-left: 2rem;
-  padding-right: calc(1.5rem + 38px);
-  box-sizing: border-box;
-}
+  /* =========================================
+      3. THE SCENE
+      ========================================= */
+  .scene {
+    position: relative;
+    flex-grow: 1; 
+    width: 100%;
+    margin-top: 60px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    padding-top: 10vh; 
+  }
 
-.nav-links a {
-  color: inherit;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.95rem;
-  padding: 8px 14px;
-  border-radius: 6px;
-  border: 2px solid transparent;
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-}
+  .composite-container {
+    position: relative;
+    width: 80vw;      
+    max-width: 1400px; 
+    height: auto;
+  }
 
-/* Hover background */
-html:not(.happy) .nav-links a:hover {
-  background: #fff;
-  color: #000;
-}
-html.happy .nav-links a:hover {
-  background: #000;
-  color: #fff;
-}
+  /* Images */
+  .comp-img {
+    width: 100%; height: auto; display: block; position: relative; 
+    transition: opacity 1.2s ease;
+  }
+  .comp-img.gloomy { z-index: 1; opacity: 1; }
+  .comp-img.happy { 
+    position: absolute; top: 0; left: 0;
+    z-index: 2; opacity: 0; 
+    pointer-events: none; 
+  }
 
-/* ACTIVE PAGE: show frame */
-.nav-links a.active {
-  border-color: currentColor;
-}
+  /* VIDEO OVERLAY */
+  .brain-animation {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 68.3%; 
+    height: auto;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 3;
+  }
 
-nav a:focus { outline: none !important; }
+  /* LOCK OVERLAY */
+  .lock {
+    position: absolute;
+    top: 42%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; 
+    z-index: 4;
+    cursor: url('/assets/images/big_key2.png') 16 16, pointer;
+    transition: opacity 0.6s ease;
+  }
+  .scene:hover .lock { opacity: 1; }
 
-/* ----------- SCENE ----------- */
-.scene {
-  position: relative;
-  flex-grow: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-}
-.silhouette {
-  position: absolute; left: 4%; top: 20%;
-  width: 35vw; max-width: 800px; z-index: 1;
-}
-.silhouette img {
-  position: absolute; width: 100%; height: auto;
-  top: 0; left: 0; transition: opacity 1.2s ease;
-}
-.silhouette img.happy { opacity: 0; }
-html.happy .silhouette img.gloomy { opacity: 0; }
-html.happy .silhouette img.happy  { opacity: 1; }
+  /* SUBTITLE */
+  .subtitle {
+    position: absolute; 
+    top: 79%; 
+    left: 0; width: 100%; text-align: center;
+    font-size: 1.2rem; color: #e0e0e0; transition: color 1s ease;
+    pointer-events: none; 
+  }
 
-.projection {
-  position: absolute; right: 7%; top: 25%;
-  width: 30vw; max-width: 800px;
-  transition: opacity 1.2s ease; z-index: 1; opacity: 1;
-  z-index: 4;
-}
-.projection.happy { opacity: 0; }
+  /* HAPPY MODE LOGIC */
+  html.happy .comp-img.gloomy { opacity: 0; }
+  html.happy .comp-img.happy  { opacity: 1; pointer-events: auto; }
+  html.happy .subtitle { color: #000; }
+  html.happy .lock { display: none; }
+  html.happy, html.happy body { background: #fff; color: #000; }
+  html.happy nav { background: #fff; color: #000; border-bottom: 2px solid #000; }
 
-.brain {
-  position: absolute; top: 10%; left: 50%;
-  transform: translate(-50%, -50%);
-  width: 60vw; max-width: 840px; z-index: 2;
-}
-.brain img {
-  width: 100%; height: auto;
-  display: block; position: absolute; top: 0; left: 0;
-  transition: opacity 1.2s ease;
-}
-.brain img.happy { opacity: 0; z-index: 2; }
-.brain img.gloomy { z-index: 1; }
+  /* RELOCK BUTTON (Grey Lock) */
+  #relock-container {
+    position: absolute; 
+    bottom: 25px; 
+    left: 50%; transform: translateX(-50%);
+    display: flex; flex-direction: column; align-items: center;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: opacity 0.5s ease;
+    z-index: 10000; 
+  }
+  #relock-button {
+    display: flex; flex-direction: column; align-items: center;
+    gap: 0; 
+    background: none; border: none; padding: 8px 12px;
+    color: rgb(110, 110, 110);
+    cursor: url('/assets/images/grey_key.png') 10 10, pointer;
+  }
+   
+  #relock-button img { 
+    width: 220px; 
+    transform: translateY(20px); 
+  }
+   
+  #relock-button span {
+    display: block;
+    margin-top: -5px;
+  }
 
-/* Brain animation overlay */
-.brain-animation {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-  z-index: 3;
-  background: transparent;
-}
+  /* CORNER LINKS */
+  .corner-links {
+    position: fixed; inset: 0; opacity: 0; 
+    z-index: 9999; 
+    transition: opacity 1.5s ease;
+    pointer-events: none !important; 
+  }
+   
+  .corner-links a {
+    position: absolute; font-size: 0.9rem; text-decoration: none; color: inherit;
+    pointer-events: none; 
+    transition: opacity 0.8s ease, color 0.6s ease, transform 0.6s ease;
+    max-width: 350px; white-space: nowrap;
+    line-height: 1.2; opacity: 0; text-align: center;
+  }
 
-.lock {
-  position: absolute; top: 40%; left: 50%;
-  transform: translate(-50%, -50%);
-  width: 40%;
-  opacity: 0; transition: opacity 0.6s ease;
-  cursor: url('/assets/images/big_key2.png') 16 16, pointer;
-  z-index: 3;
-}
-.scene:hover .lock { opacity: 1; }
+  html.happy .corner-links a { 
+    pointer-events: auto; 
+    cursor: pointer;
+  }
+   
+  .corner-links a:hover { transform: scale(1.05); }
+   
+  /* CHANGED: Removed margin-bottom and set line-height to 1 for tight spacing */
+  .corner-links a .corner-title { 
+    display: block; 
+    font-size: 1.4rem; 
+    font-weight: bold; 
+    margin-bottom: -10px; 
+    line-height: 1;
+  }
 
-.subtitle {
-  position: absolute; top: 68%;
-  width: 100%; text-align: center;
-  font-size: 1.2rem;
-  color: #e0e0e0;
-  transition: color 1s ease;
-}
+  /* Desktop Corners */
+  .corner-top-left { top: 120px; left: 180px; text-align: left; }
+  .corner-top-right { top: 120px; right: 180px; text-align: right; }
+  .corner-bottom-left { bottom: 60px; left: 180px; text-align: left; }
+  .corner-bottom-right { bottom: 60px; right: 180px; text-align: right; }
 
-/* ----------- RELOCK CONTROL ----------- */
-#relock-container {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.5s ease;
-  z-index: 5;
-}
+  /* =========================================
+      4. MOBILE PORTRAIT (Vertical)
+      ========================================= */
+  @media screen and (max-width: 900px) and (orientation: portrait) {
+    nav { 
+      height: auto; flex-direction: column; 
+      padding: 5px 0; gap: 2px; 
+    }
+    nav .brand { 
+      font-size: 1.2rem; transform: none; padding: 4px 14px; 
+    }
+    nav .brand::before { display: none; }
+    
+    .nav-links { 
+      width: 100%; margin: 0; padding: 0; 
+      justify-content: center; flex-wrap: wrap; gap: 4px; 
+    }
+    .nav-links a { font-size: 0.8rem; padding: 5px 8px; }
 
-#relock-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px; /* space between lock and text */
-  background: none;
-  border: none;
-  padding: 8px 12px;
-  margin: 0;
-  font: inherit;
-  color: rgb(110, 110, 110);
-  cursor: url('/assets/images/grey_key.png') 10 10, pointer;
-}
+    .composite-container { width: 100vw; max-width: none; }
+    
+    /* Mobile Subtitle */
+    .subtitle { top: auto; bottom: -15%; font-size: 1rem; padding: 0 10px; }
 
-#relock-button img {
-  width: 200px;
-  max-width: 220px;
-  height: auto;
-  transform: translateY(40px); /* lower the lock visually */
-}
+    /* Corner Links */
+    .corner-links {
+      position: absolute; 
+      top: 40%; 
+      bottom: auto; left: 0; right: 0;
+      display: flex; flex-direction: column; align-items: center; 
+      gap: 30px; 
+    }
+    .corner-links a {
+      position: relative; top: auto !important; bottom: auto !important;
+      left: auto !important; right: auto !important; text-align: center !important;
+      max-width: 90%;
+      white-space: normal; 
+    }
+    
+    #relock-container { bottom: 0px; }
+    #relock-button img { width: 150px; }
+  }
 
-#relock-button span {
-  font-size: 0.9rem;
-}
-
-/* ----------- CORNER LINKS ----------- */
-.corner-links {
-  position: fixed;
-  inset: 0;
-  opacity: 0;
-  pointer-events: none;
-  z-index: 4;
-  transition: opacity 1.5s ease;
-}
-.corner-links a {
-  position: absolute;
-  font-size: 0.9rem;
-  font-weight: normal;
-  text-decoration: none;
-  color: inherit;
-  pointer-events: none;
-  transition: opacity 0.8s ease, color 0.6s ease, transform 0.6s ease;
-  max-width: 260px;
-  line-height: 1.2;
-  opacity: 0;
-  text-align: center;
-}
-.corner-links a:hover { transform: scale(1.05); }
-.corner-links a .corner-title {
-  display: block; font-size: 1.6rem;
-  font-weight: bold; line-height: 1.1;
-}
-.corner-top-left { top: 120px; left: 120px; text-align: left; }
-.corner-top-right { top: 120px; right: 120px; text-align: right; }
-.corner-bottom-left { bottom: 80px; left: 120px; text-align: left; }
-.corner-bottom-right { bottom: 80px; right: 120px; text-align: right; }
-
-/* ----------- HAPPY MODE ----------- */
-html.happy, html.happy body { background: #fff; color: #000; }
-html.happy nav { background: #fff; color: #000; border-bottom: 2px solid #000; }
-html.happy nav a:hover { background: #000; color: #fff; }
-html.happy .projection.gloomy, html.happy .brain img.gloomy { opacity: 0; }
-html.happy .projection.happy,  html.happy .brain img.happy  { opacity: 1; }
-html.happy .subtitle { color: #000; }
-html.happy .lock { display: none; }
-
-/* Enable corner link clicks when unlocked */
-html.happy .corner-links,
-html.happy .corner-links a {
-  pointer-events: auto;
-}
+  /* =========================================
+      5. MOBILE LANDSCAPE (Horizontal)
+      ========================================= */
+  @media screen and (max-height: 500px) {
+    nav { padding: 0 10px; }
+    nav .brand { transform: scale(1); font-size: 1rem; }
+    
+    .nav-links {
+      flex-grow: 1; 
+      width: auto; 
+      margin-left: 10px;
+      /* FIX: Removed margin-right to prevent early cut-off */
+      margin-right: 0; 
+      
+      justify-content: flex-start;
+      overflow-x: auto; 
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch; 
+      scrollbar-width: none;
+      
+      /* FIX: Added padding-right so the last link has breathing room */
+      padding-right: 20px; 
+    }
+    .nav-links::-webkit-scrollbar { display: none; }
+    
+    .nav-links a { 
+      font-size: 0.7rem; 
+      padding: 3px 6px; 
+      flex-shrink: 0; 
+      border-width: 1px; 
+    }     
+    .composite-container { width: 60vw; }
+    
+    /* SUBTITLE OVER BRAIN (Landscape Only) */
+    .subtitle {
+      top: -5px; 
+      bottom: auto;
+      font-size: 0.9rem;
+      padding: 0 10px;
+      z-index: 10;
+    }
+    
+    .corner-links a { transform: scale(0.65); max-width: 180px; white-space: normal; }
+    .corner-top-left { top: 80px; left: 10px; }
+    .corner-top-right { top: 80px; right: 10px; }
+    .corner-bottom-left { bottom: 10px; left: 10px; }
+    .corner-bottom-right { bottom: 10px; right: 10px; }
+    
+    #relock-container { bottom: 10px; }
+    #relock-button img { width: 120px; }
+  }
 </style>
 </head>
 
@@ -270,145 +324,92 @@ html.happy .corner-links a {
 <nav>
   <a href="/index.html" class="brand">HillierLab</a>
   <div class="nav-links">
-    <a href="/vision.html"
-       class="{% if page.url contains '/vision' %}active{% endif %}">
-      Vision
-    </a>
-    <a href="/research.html"
-       class="{% if page.url contains '/research' %}active{% endif %}">
-      Research
-    </a>
-    <a href="/patients-teachers-students.html"
-       class="{% if page.url contains '/patients-teachers-students' %}active{% endif %}">
-      Patients, Teachers, Students
-    </a>
-    <a href="/team.html"
-       class="{% if page.url contains '/team' %}active{% endif %}">
-      Team
-    </a>
-    <a href="/collaborations.html"
-       class="{% if page.url contains '/collaborations' %}active{% endif %}">
-      Collaborations
-    </a>
-    <a href="/news-publications.html"
-       class="{% if page.url contains '/news-publications' %}active{% endif %}">
-      News & Publications
-    </a>
-    <a href="/contact.html"
-       class="{% if page.url contains '/contact' %}active{% endif %}">
-      Contact
-    </a>
+    <a href="/vision.html" class="{% if page.url contains '/vision' %}active{% endif %}">Vision</a>
+    <a href="/research.html" class="{% if page.url contains '/research' %}active{% endif %}">Research</a>
+    <a href="/patients-teachers-students.html" class="{% if page.url contains '/patients-teachers-students' %}active{% endif %}">Patients, Teachers, Students</a>
+    <a href="/team.html" class="{% if page.url contains '/team' %}active{% endif %}">Team</a>
+    <a href="/collaborations.html" class="{% if page.url contains '/collaborations' %}active{% endif %}">Collaborations</a>
+    <a href="/news-publications.html" class="{% if page.url contains '/news-publications' %}active{% endif %}">News & Publications</a>
+    <a href="/contact.html" class="{% if page.url contains '/contact' %}active{% endif %}">Contact</a>
   </div>
 </nav>
 
 <div class="scene">
-  <div class="silhouette">
-    <img src="/assets/images/gloomy_window.png" class="gloomy" alt="Gloomy window" />
-    <img src="/assets/images/happy_window2.png"  class="happy"  alt="Happy window" />
-  </div>
-
-  <div class="brain" id="brain">
-    <img src="/assets/images/g_brain_lashes2.png" class="gloomy" alt="Gloomy brain" />
-    <img src="/assets/images/h_brain_lashes6.png" class="happy"  alt="Happy brain" />
-
-    <!-- Brain pipes animation overlay -->
-    <!--<video id="brain-animation"
-           class="brain-animation"
-           preload="auto"
-           muted
-           playsinline>
-      <source src="/assets/images/anim3.webm" type="video/webm" />
-    </video>-->
-  <video id="brain-animation"
-       class="brain-animation"
-       preload="auto"
-       muted
-       playsinline>
-  <source src="/assets/images/anim3.mov" type='video/quicktime; codecs="hvc1"'>
-
-  <source src="/assets/images/anim3.webm" type="video/webm" />
-  </video>
+  <div class="composite-container">
+    <img src="/assets/images/gloomy_composite.png" class="comp-img gloomy" alt="Gloomy Scene" />
     
+    <img src="/assets/images/happy_composite.png" class="comp-img happy" alt="Happy Scene" />
+
+    <video id="brain-animation" class="brain-animation" preload="auto" muted playsinline>
+      <source src="/assets/images/anim3.mov" type='video/quicktime; codecs="hvc1"'>
+      <source src="/assets/images/anim3.webm" type="video/webm" />
+    </video>
+
+    <img src="/assets/images/lock_blue.png" class="lock" id="lock" alt="Lock" />
+
+    <div class="subtitle" id="subtitle">Unlocking the Mesoscale Level of the Brain</div>
   </div>
 
-  <img src="/assets/images/lock_blue.png" class="lock" id="lock" alt="Lock" />
-
-  <img src="/assets/images/gloomy_scenery.png" class="projection gloomy" alt="Scary projection" />
-  <img src="/assets/images/happy_scenery.png"  class="projection happy"  alt="Happy projection" />
-
-  <div class="subtitle" id="subtitle">Unlocking the Mesoscale Level of the Brain</div>
-
-  <!-- RELOCK CONTROL -->
   <div id="relock-container">
     <button id="relock-button">
-      <img src="/assets/images/lock_grey.png" alt="Relock to dark mode" />
+      <img src="/assets/images/lock_grey.png" alt="Relock" />
       <span>Relock</span>
     </button>
   </div>
 
   <div class="corner-links" id="corner-links">
     <a href="/research.html#biotechnology" class="corner-top-left">
-      <span class="corner-title">BIOTECHNOLOGY</span><br />
-      providing cure not symptom treatment
+      <span class="corner-title">BIOTECHNOLOGY</span><br />providing cure not symptom treatment
     </a>
     <a href="/research.html#animal-models" class="corner-top-right">
-      <span class="corner-title">ANIMAL MODELS</span><br />
-      from idea to therapy
+      <span class="corner-title">ANIMAL MODELS</span><br />from idea to therapy
     </a>
     <a href="/research.html#healing" class="corner-bottom-left">
-      <span class="corner-title">HEALING</span><br />
-      brain circuits in adults
+      <span class="corner-title">HEALING</span><br />brain circuits in adults
     </a>
     <a href="/streamlined" class="corner-bottom-right">
-      <span class="corner-title">STREAMLINED</span><br />
-      biologist-data scientist team
+      <span class="corner-title">STREAMLINED</span><br />biologist-data scientist team
     </a>
   </div>
 </div>
 
 <script>
 const lock = document.getElementById('lock');
-const brainGloomy = document.querySelector('.brain img.gloomy');
-const brainHappy  = document.querySelector('.brain img.happy');
-const projGloomy  = document.querySelector('.projection.gloomy');
-const projHappy   = document.querySelector('.projection.happy');
-const subtitle    = document.getElementById('subtitle');
+const imgGloomy = document.querySelector('.comp-img.gloomy');
+const imgHappy  = document.querySelector('.comp-img.happy');
+const subtitle  = document.getElementById('subtitle');
 const cornerLinks = document.getElementById('corner-links');
 const cornerAnchors = cornerLinks.querySelectorAll('a');
 const relockContainer = document.getElementById('relock-container');
 const relockButton = document.getElementById('relock-button');
-const brainAnim   = document.getElementById('brain-animation');
+const brainAnim = document.getElementById('brain-animation');
 
 let unlocked = sessionStorage.getItem('hl_unlocked') === '1';
 
 function showRelock() {
   relockContainer.style.opacity = '1';
   relockContainer.style.pointerEvents = 'auto';
+  // Manually enable pointer events on the button when showing
+  relockButton.style.pointerEvents = 'auto';
 }
-
 function hideRelock() {
   relockContainer.style.opacity = '0';
   relockContainer.style.pointerEvents = 'none';
+  // Manually disable pointer events on the button when hiding
+  relockButton.style.pointerEvents = 'none';
 }
 
 function startHappyTransition() {
-  // Avoid re-running this
   if (document.documentElement.classList.contains('happy')) return;
-
   document.documentElement.classList.add('happy');
 
-  brainGloomy.style.opacity = '0';
-  projGloomy.style.opacity  = '0';
+  // Crossfade
+  imgHappy.style.opacity = '1';
+  imgGloomy.style.opacity = '0';
 
-  setTimeout(() => {
-    brainHappy.style.opacity = '1';
-    projHappy.style.opacity  = '1';
-  }, 150);
-
+  // Show links
   cornerLinks.style.opacity = '1';
-  cornerAnchors.forEach((a, i) =>
-    setTimeout(() => (a.style.opacity = '1'), i * 500)
-  );
+  cornerAnchors.forEach((a, i) => setTimeout(() => (a.style.opacity = '1'), i * 500));
 
   subtitle.textContent = 'Bridging the Gap Between Molecules and Behavior';
   showRelock();
@@ -417,141 +418,102 @@ function startHappyTransition() {
 function applyUnlockedImmediate() {
   document.documentElement.classList.add('happy');
   lock.style.display = 'none';
-  brainGloomy.style.opacity = '0';
-  projGloomy.style.opacity  = '0';
-  brainHappy.style.opacity  = '1';
-  projHappy.style.opacity   = '1';
+  imgHappy.style.opacity = '1';
+  imgGloomy.style.opacity = '0';
+   
   cornerLinks.style.opacity = '1';
   cornerAnchors.forEach(a => a.style.opacity = '1');
+   
   subtitle.textContent = 'Bridging the Gap Between Molecules and Behavior';
-
-  if (brainAnim) {
-    brainAnim.pause();
-    brainAnim.style.opacity = '0';
-  }
-
+  if (brainAnim) { brainAnim.pause(); brainAnim.style.opacity = '0'; }
   showRelock();
 }
 
 if (unlocked) applyUnlockedImmediate();
 
-// LOCK CLICK: animation plays, transition starts 1s before animation ends
 lock.addEventListener('click', e => {
   e.stopPropagation();
   if (unlocked) return;
   unlocked = true;
   sessionStorage.setItem('hl_unlocked', '1');
 
-  // Fade out lock
   lock.style.transition = 'opacity 0.8s ease';
   lock.style.opacity = '0';
   setTimeout(() => { lock.style.display = 'none'; }, 800);
 
-  if (!brainAnim) {
-    startHappyTransition();
-    return;
-  }
+  if (!brainAnim) { startHappyTransition(); return; }
 
-  // Reset and show animation
+  // Play Animation
   brainAnim.currentTime = 0;
   brainAnim.style.opacity = '1';
   brainAnim.playbackRate = 0.77;
+   
+  imgGloomy.style.opacity = '1';
+  imgHappy.style.opacity = '0';
 
-  // DO NOT hide gloomy scenery anymore!
-  // Only hide gloomy brain.
-  brainGloomy.style.opacity = '0';
-  brainHappy.style.opacity  = '0';
-  // Leave projGloomy visible until transition
-
-  const fadeOutLead = 1.75;  // seconds before end to fade out animation + fade in happy brain
-  const transitionLead = 2.25; // seconds before end to transition page
-
+  const fadeOutLead = 1.75;  
+  const transitionLead = 2.25; 
   let faded = false;
   let transitioned = false;
 
   function monitor() {
     const dur = brainAnim.duration;
     if (!dur || isNaN(dur)) return;
-
     const t = brainAnim.currentTime;
 
-    // 1. Fade animation + reveal happy brain 2s before end
     if (!faded && t >= dur - fadeOutLead) {
       faded = true;
       brainAnim.style.transition = 'opacity 1s ease';
       brainAnim.style.opacity = '0';
-
-      // Fade in happy brain early
-      brainHappy.style.opacity = '1';
+       
+      imgHappy.style.opacity = '1';
+      imgGloomy.style.opacity = '0';
     }
-
-    // 2. Start the rest of the transition 1s before end
     if (!transitioned && t >= dur - transitionLead) {
       transitioned = true;
-      startHappyTransition();  // background, scenery, corner links
+      startHappyTransition();
     }
   }
 
   brainAnim.addEventListener('timeupdate', monitor);
-
-  const playPromise = brainAnim.play();
-  if (playPromise && playPromise.catch) {
-    playPromise.catch(err => console.error(err));
-  }
-
+  brainAnim.play().catch(err => console.error(err));
+   
   brainAnim.addEventListener('ended', () => {
     brainAnim.style.opacity = '0';
     brainAnim.removeEventListener('timeupdate', monitor);
-
-    // Safety in case both triggers were missed
     if (!faded) {
-      brainHappy.style.opacity = '1';
-      brainAnim.style.opacity = '0';
+       imgHappy.style.opacity = '1';
+       imgGloomy.style.opacity = '0';
     }
     if (!transitioned) startHappyTransition();
   }, { once: true });
 });
 
-// RELOCK FEATURE
 relockButton.addEventListener('click', function (e) {
   e.preventDefault();
-
-  // Remove unlocked state
   unlocked = false;
   sessionStorage.removeItem('hl_unlocked');
-
-  // Switch visuals back to gloomy
   document.documentElement.classList.remove('happy');
 
-  if (brainAnim) {
-    brainAnim.pause();
-    brainAnim.style.opacity = '0';
-  }
+  if (brainAnim) { brainAnim.pause(); brainAnim.style.opacity = '0'; }
 
-  brainHappy.style.opacity  = '0';
-  projHappy.style.opacity   = '0';
-  brainGloomy.style.opacity = '1';
-  projGloomy.style.opacity  = '1';
-
+  imgHappy.style.opacity = '0';
+  imgGloomy.style.opacity = '1';
+   
   subtitle.textContent = 'Unlocking the Mesoscale Level of the Brain';
-
-  // Hide corner links again
+   
   cornerLinks.style.opacity = '0';
   cornerAnchors.forEach(a => a.style.opacity = '0');
 
-  // Show blue lock again
   lock.style.display = 'block';
   requestAnimationFrame(() => {
     lock.style.opacity = '0';
-    requestAnimationFrame(() => {
-      lock.style.opacity = '1';
-    });
+    requestAnimationFrame(() => { lock.style.opacity = '1'; });
   });
 
   hideRelock();
 });
 
-// Reveal after first frame
 requestAnimationFrame(() => {
   document.documentElement.classList.remove('prep', 'no-anim');
   document.documentElement.style.background = '';
