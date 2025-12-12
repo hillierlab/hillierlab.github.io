@@ -38,6 +38,22 @@ title: Meet the Team
 </div>
 
 
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+  <img src="/assets/images/member_photos/Doma.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <div>
+    <h3>Domonkos Horvath</h3>
+    <p>"I hold an MSc in Electronic and Computer Engineering from Pázmány Péter Catholic University and a PhD in Theoretical Medical Sciences from Semmelweis University. My research centers on chronic imaging experiments in large-brained animals, primarily under anesthesia. In our lab, I plan, organize, and conduct these experiments collaboratively with our team, advancing our understanding of brain function through precise and systematic application of chronic imaging approaches."</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 2em;">
+  <img src="/assets/images/member_photos/Trixi.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h3>Beatrix Kovacs</h3>
+    <p>Trixi is a PhD candidate at Semmelweis University. She obtained her degree in biomedical engineering from the Budapest University of Technology and Economics. Her research focuses on adeno-associated virus (AAV) vector biology and neutralizing antibody assays, including the development of a more sensitive neutralization assay for improved detection of immune responses against AAV vectors and support safer, more accessible gene therapy. Within the group, she works across molecular and in vivo experiments, linking vector design to functional outcomes.</p>
+  </div>
+</div>
+
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Kinga.JPEG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
@@ -78,14 +94,6 @@ title: Meet the Team
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/Doma.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
-  <div>
-    <h3>Domonkos Horvath</h3>
-    <p>"I hold an MSc in Electronic and Computer Engineering from Pázmány Péter Catholic University and a PhD in Theoretical Medical Sciences from Semmelweis University. My research centers on chronic imaging experiments in large-brained animals, primarily under anesthesia. In our lab, I plan, organize, and conduct these experiments collaboratively with our team, advancing our understanding of brain function through precise and systematic application of chronic imaging approaches."</p>
-  </div>
-</div>
-
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Abel.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
@@ -118,10 +126,3 @@ title: Meet the Team
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/Trixi.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
-  <div>
-    <h3>Beatrix Kovacs</h3>
-    <p>Trixi is a PhD candidate at Semmelweis University. She obtained her degree in biomedical engineering from the Budapest University of Technology and Economics. Her research focuses on adeno-associated virus (AAV) vector biology and neutralizing antibody assays, including the development of a more sensitive neutralization assay for improved detection of immune responses against AAV vectors and support safer, more accessible gene therapy. Within the group, she works across molecular and in vivo experiments, linking vector design to functional outcomes.</p>
-  </div>
-</div>
