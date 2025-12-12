@@ -54,6 +54,7 @@ title: Meet the Team
   </div>
 </div>
 
+
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Baneen.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
@@ -61,6 +62,7 @@ title: Meet the Team
     <p>"My name is Baneen Maamra. I have a PhD in Neurophysiology, which I have obtained at the University of Debrecen"</p>
   </div>
 </div>
+
  
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Kinga.JPEG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
