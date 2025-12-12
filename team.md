@@ -55,6 +55,14 @@ title: Meet the Team
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
+  <img src="/assets/images/member_photos/Baneen.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h3>Baneen Maamra</h3>
+    <p>"My name is Baneen Maamra. I have a PhD in Neurophysiology, which I have obtained at the University of Debrecen"</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Kinga.JPEG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Sarolt Kinga Gintner</h3>
@@ -83,14 +91,6 @@ title: Meet the Team
   <div>
     <h3>Mariela Talavera Munoz</h3>
     <p>"I am Mariela Talavera, bacherlor student of biomedical engineering in Universidad Autónoma de Madrid. I am interested in medical imaging and prothesis design. I like playing piano and doing sports."</p>
-  </div>
-</div>
-
-<div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/Baneen.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
-  <div>
-    <h3>Baneen Maamra</h3>
-    <p>"My name is Baneen Maamra. I have a PhD in Neurophysiology, which I have obtained at the University of Debrecen"</p>
   </div>
 </div>
 
