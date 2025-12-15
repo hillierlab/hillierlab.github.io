@@ -53,16 +53,6 @@ title: Meet the Team
     <p>Trixi is a PhD candidate at Semmelweis University. She obtained her degree in biomedical engineering from the Budapest University of Technology and Economics. Her research focuses on adeno-associated virus (AAV) vector biology and neutralizing antibody assays, including the development of a more sensitive neutralization assay for improved detection of immune responses against AAV vectors and support safer, more accessible gene therapy. Within the group, she works across molecular and in vivo experiments, linking vector design to functional outcomes.</p>
   </div>
 </div>
-
-
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/Baneen.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
-  <div>
-    <h3>Baneen Maamra</h3>
-    <p>"My name is Baneen Maamra. I have a PhD in Neurophysiology, which I have obtained at the University of Debrecen"</p>
-  </div>
-</div>
-
  
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Kinga.JPEG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
@@ -85,14 +75,6 @@ title: Meet the Team
   <div>
     <h3>Fanni Soos</h3>
     <p>"As a laboratory assistant in our group, I take part in processing and analyzing experimental samples in the anatomy lab."</p>
-  </div>
-</div>
-
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/Mariela.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
-  <div>
-    <h3>Mariela Talavera Munoz</h3>
-    <p>"I am Mariela Talavera, bacherlor student of biomedical engineering in Universidad Autónoma de Madrid. I am interested in medical imaging and prothesis design. I like playing piano and doing sports."</p>
   </div>
 </div>
 
