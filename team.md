@@ -110,7 +110,7 @@ title: Meet the Team
   </div>
 </div>
 
-#Alumni#
+<h1> Alumni </h1>
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
   <img src="/assets/images/member_photos/Mariela.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
