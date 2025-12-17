@@ -16,6 +16,13 @@ The article published in Frontiers in Immunology can be found <a href="https://w
    target="_blank"
    rel="noopener noreferrer">here</a>.
 
+## Advances in Understanding Visual Processing from Retina to Brain
+*14 Sept, 2022*
+This editorial, published in Frontiers, introduces a Research Topic featuring eight papers that explore the mammalian visual system across multiple species including mice, rats, cats, macaques, and humans, spanning from retinal processing to cortical mechanisms. The collection examines intrinsically photosensitive retinal ganglion cells and their survival mechanisms, the effects of low-dose atropine on visual signal processing, optical coherence tomography for imaging human retinal layers, and computational modeling of the cortico-pulvinar network in subcortical visual processing. Three papers investigate the primary visual cortex, exploring binocular matching during the critical period of visual development, methods for extracting retinotopic maps from imaging data, and how spatial attention modulates interactions between simple and complex direction-selective cells with non-overlapping receptive fields. The Research Topic also presents a new open-source Python tool for real-time pupil tracking across species, demonstrating the breadth of current visual neuroscience research from basic cellular mechanisms to computational approaches.
+The article published in Frontiers in Cellular Neurosicence can be found <a href="https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2022.1018229/full"
+   target="_blank"
+   rel="noopener noreferrer">here</a>.
+
 ## Making blind retinas see again
 *5. June, 2020*
 Damage to photoreceptors in the retina is a common cause of blindness. In a new study, researchers developed a method to make damaged photoreceptors sensitive to light again using near-infrared technology.
