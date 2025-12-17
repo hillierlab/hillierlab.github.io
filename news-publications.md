@@ -23,7 +23,7 @@ The article published in Frontiers in Cellular Neurosicence can be found <a href
    target="_blank"
    rel="noopener noreferrer">here</a>.
 
-## Hungarian-Led European Consortium Receives €1.2 Million to Investigate Amblyopia
+## Hungarian-Led European Consortium Investigate Amblyopia
 *15 Dec, 2021*
 An international research consortium led by Visual Systems Neuroscience Research Group has been awarded €1.2 million in EU funding to investigate the neurobiological causes of amblyopia, one of the most common vision disorders. The three-year project, funded entirely through the European Research Area Networks (ERA-NETs) program, brings together research teams from Hungary (ELKH Natural Science Research Center's Visual Systems Neurobiology group), Romania (Transylvanian Institute of Neuroscience in Cluj-Napoca), Belgium (KU Leuven and the NeuroElectronics Research Flanders institute founded by IMEC), and Norway (University of Oslo). 
 Amblyopia, also known as "lazy eye," affects approximately 200 million people worldwide and is the leading cause of monocular blindness, yet current treatments can only moderately reduce lifelong vision impairment. The consortium will use cutting-edge technologies including functional ultrasound imaging to map the brain networks responsible for maintaining amblyopia and determine their role in the disorder, conducting measurements in experimental animal models and, in collaboration with Semmelweis University's Department of Ophthalmology, in patients diagnosed with amblyopia.
