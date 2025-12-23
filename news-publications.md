@@ -40,10 +40,7 @@ The article published in Science can be found <a
 href="https://www.science.org/doi/10.1126/science.aaz5887"
  target="_blank"
 rel="noopener noreferrer">here</a>.
-
-*8. June, 2020*
-The unique vision-restoring therapy will soon be tested in Hungarian patients. The Hungarian–Swiss research team has developed a new vision-restoring method that could help even completely blind people regain sight. Using a laboratory-tested technique, the researchers were able to restore light sensitivity in retinas that were previously unable to respond to light. The approach is based on a natural visual mechanism and represents a major step forward in vision research. The results were published in the scientific journal Science.
-The Hungarian news published <a 
+The unique vision-restoring therapy will soon be tested in Hungarian patients. The Hungarian news published <a 
 href="https://qubit.hu/2020/06/08/hamarosan-magyar-betegeken-is-tesztelhetik-az-egyedulallo-latas-visszaallito-terapiat"
 target="_blank"
 rel="noopener noreferrer">here</a>.
@@ -64,7 +61,6 @@ In a new study, Dániel Hillier and colleagues reveal how the retina influences 
 href="https://www.nature.com/articles/nn.4566"
 target="_blank"
 rel="noopener noreferrer">here</a>.
-
 The results were also featured by the National Geographic, bringing the research to a wider audience and highlighting the fascinating mechanisms of the visual nervous system. <a
 href="https://ng.24.hu/tudomany/2017/05/23/megerteni-az-agykereg-fantasztikus-alkalmazkodokepesseget/"
 target="_blank"
