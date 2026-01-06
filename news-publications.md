@@ -8,13 +8,9 @@ A recently published Nature commentary (December 2025) argues that alternatives 
    target="_blank"
    rel="noopener noreferrer">here</a>.
 
-   <img width="2224" height="806" alt="image" src="https://github.com/user-attachments/assets/a198f081-5112-4720-b566-d39afcdb1e64" />
-   
-## Adrienn Ingrid Vörös achieved 2nd place at the Scientific Students’ Conference (TDK) of the Faculty of Information Technology and Bionics, Pázmány Péter Catholic University
+## Award-winning research in the lab
 *28 Nov, 2025*
-Adrienn Ingrid Vörös achieved 2nd place at the Scientific Students’ Conference (TDK) of the Faculty of Information Technology and Bionics, Pázmány Péter Catholic University. Her research topic was A quantitative study of the relationship between motivation and performance.
-
-<img width="489" height="206" alt="Screenshot 2025-12-23 at 17 32 39" src="https://github.com/user-attachments/assets/bf53115b-c39e-4098-9500-88b00fe77410" />
+Adrienn Ingrid Vörös received 2nd place at the Scientific Students’ Conference on 28 Nov 2025 for her project titled “A quantitative study of the relationship between motivation and performance.”
 
 ## New Assay Fixes Critical Flaw in Gene Therapy Screening
 *29 Sept, 2025*
