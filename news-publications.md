@@ -2,6 +2,20 @@
 layout: page
 title: News
 ---
+## Nature Publication on Animal Research Ethics
+*2 Dec, 2025*
+A recently published Nature commentary (December 2025) argues that alternatives to animal research, such as organ-on-a-chip systems or AI models, are not inherently more ethical, as their reliability falls short of rigorously overseen animal studies. The authors emphasize that researchers treat animals with empathy, and the real moral challenge lies in prolonging human suffering through inadequate NAMs that could yield misleading results. This bolsters the ethical foundation of animal research based on the 3Rs principles (Replacement, Reduction, Refinement), as practiced by our research group. The article can be found <a href="https://www.nature.com/articles/d41586-025-03921-9?WT.ec_id=NATURE-20251204&utm_source=nature_etoc&utm_medium=email&utm_campaign=CONR_41586_AWA1_GL_DTEC_054CI_TOC-251204"
+   target="_blank"
+   rel="noopener noreferrer">here</a>.
+
+   <img width="2224" height="806" alt="image" src="https://github.com/user-attachments/assets/a198f081-5112-4720-b566-d39afcdb1e64" />
+   
+## Adrienn Ingrid Vörös achieved 2nd place at the Scientific Students’ Conference (TDK) of the Faculty of Information Technology and Bionics, Pázmány Péter Catholic University
+*28 Nov, 2025*
+Adrienn Ingrid Vörös achieved 2nd place at the Scientific Students’ Conference (TDK) of the Faculty of Information Technology and Bionics, Pázmány Péter Catholic University. Her research topic was A quantitative study of the relationship between motivation and performance.
+
+<img width="489" height="206" alt="Screenshot 2025-12-23 at 17 32 39" src="https://github.com/user-attachments/assets/bf53115b-c39e-4098-9500-88b00fe77410" />
+
 ## New Assay Fixes Critical Flaw in Gene Therapy Screening
 *29 Sept, 2025*
 In a study published in Nature Gene Therapy, our lab has developed a new method that significantly improves the safety and accuracy of screening for AAV gene therapies. This new ‘Constant Serum Concentration’ (CSC) assay addresses a critical flaw in current screening processes, which can fail to detect low but clinically significant levels of neutralizing antibodies (NAbs) that block a therapy's effectiveness. Our study demonstrated that the CSC assay correctly identifies up to 21.7% more patients with these therapy-blocking antibodies than conventional methods, preventing individuals from being incorrectly deemed eligible for treatment. By providing a more reliable framework for patient selection and understanding long-term immunity, our publicly available protocol promises to lower therapy failure rates, enhance the robustness of clinical trial data, and accelerate the development of safer and more effective gene therapies worldwide.
