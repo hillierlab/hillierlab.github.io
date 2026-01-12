@@ -47,13 +47,31 @@ title: Meet the Team
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/Trixi.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos/ alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Beatrix Kovacs</h3>
-    <p>Trixi is a PhD candidate at Semmelweis University. She obtained her degree in biomedical engineering from the Budapest University of Technology and Economics. Her research focuses on adeno-associated virus (AAV) vector biology and neutralizing antibody assays, including the development of a more sensitive neutralization assay for improved detection of immune responses against AAV vectors and support safer, more accessible gene therapy. Within the group, she works across molecular and in vivo experiments, linking vector design to functional outcomes.</p>
+    <p>In the lab, I focus on molecular biology and cell-based work. What matters most to me is clarity - in experimental design, documentation, and everyday lab work - because good science needs structure, not chaos. Outside the lab, I recharge through art, especially theater, concerts, and exhibitions.</p>
   </div>
 </div>
- 
+
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <div>
+    <h3>Klaudia Csikós</h3>
+    <p>My work involves experimental design, implant and surgical preparation, and multimodal data acquisition and analysis to study how the brain processes visual information.
+I value following my intuition, exploring the scientific literature, and finding creative ways to solve complex neuroscience questions.
+Outside the lab, I find balance in painting, dancing, and spending time with friends</p>
+  </div>
+</div> 
+
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <div>
+    <h3>Fanni Somogyi</h3>
+    <p>I am working with rodent and large animal models, combining surgical techniques, AAV-based delivery, functional imaging and tissue analysis. I am motivated by designing complex experiments that require careful planning and coordination, as this allows us to address meaningful scientific questions. Outside the lab, I am always up for a good conversation over coffee or a board game night with my husband and friends.</p>
+  </div>
+</div> 
+
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Kinga.JPEG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
@@ -86,6 +104,14 @@ title: Meet the Team
   </div>
 </div>
 
+<div style="display: flex; align-items: center; margin-bottom: 2em;">
+  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h3>Petra Molnár</h3>
+    <p>"I work in the laboratory with AAV vectors and neutralizing antibody (NAb) testing. What I find important is continuous protocol improvement and methodological precision, I take pride in analyzing each step to make our processes more efficient and reliable, learning and refining our approaches every day. Outside the lab, I'm passionate about staying active through boxing and horse riding, exploring different cultures through travel, and expressing myself through creative hobbies."</p>
+  </div>
+</div>
+
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
   <img src="/assets/images/member_photos/Virag.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
@@ -98,7 +124,7 @@ title: Meet the Team
   <img src="/assets/images/member_photos/Gabi.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Gabriella Trieb</h3>
-    <p>"I work as a research assistant on human EEG experiments and also support HR tasks within the group. I enjoy working with people and helping participants feel informed and comfortable throughout the studies. Our measurements focus on an eye condition I also have, which makes it especially exciting to see how the research gradually improves our understanding of it."</p>
+    <p>"I work as a research assistant on human EEG experiments. I enjoy working with people and helping participants feel informed and comfortable throughout the studies."</p>
   </div>
 </div>
 
