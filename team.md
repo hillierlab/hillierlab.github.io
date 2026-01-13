@@ -32,10 +32,7 @@ title: Meet the Team
         We collaborate closely with clinicians because their feedback helps us pose research questions focused on real clinical needs. This collaboration accelerates the path from basic research discoveries to new diagnostic and therapeutic approaches. As a result, our findings can reach patients as quickly as possible.</p>
     </div>
 
-    <img src="/assets/images/streamlined.png" alt="Streamlined"
-         style="width:150px; height:150px; aspect-ratio:1/1; border-radius:50%;
-                object-fit:cover; margin:0; flex-shrink:0;">
-  </div>
+    </div>
 </div>
 
 
