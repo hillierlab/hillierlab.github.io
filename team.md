@@ -115,12 +115,22 @@ Outside the lab, I teach experiential science, ride horses regularly, and use my
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/Adolf András - webpage picture.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos/Andris.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>András Adolf</h3>
     <p>"I work in the behavior team, where I develop and maintain the experiment leader application used to run behavioral experiments.
 I find it particularly important to write clear, reliable Python code that supports reproducible experiments and smooth collaboration within the lab.
 Outside the lab, I enjoy running, playing the guitar, and spending time with friends over board games."</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 2em;">
+  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h3>Petra Kornidesz</h3>
+    <p>"I'm part of the behavioral team.
+ What matters most to me in my work is creativity and precision, especially in how questions are framed and studied.
+Outside the lab, I am passionate about sports, as it helps me recharge, and stay balanced. "</p>
   </div>
 </div>
 
