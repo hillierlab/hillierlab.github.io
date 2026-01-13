@@ -107,7 +107,7 @@ Outside the lab, I teach experiential science, ride horses regularly, and use my
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos/MPetra.jpeg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Petra Molnár</h3>
     <p>"I work in the laboratory with AAV vectors and neutralizing antibody (NAb) testing. What I find important is continuous protocol improvement and methodological precision, I take pride in analyzing each step to make our processes more efficient and reliable, learning and refining our approaches every day. Outside the lab, I'm passionate about staying active through boxing and horse riding, exploring different cultures through travel, and expressing myself through creative hobbies."</p>
