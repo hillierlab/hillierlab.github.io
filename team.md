@@ -125,7 +125,7 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/K.Petra.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos/K.Petra2.jpeg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Petra Kornidesz</h3>
     <p>"I'm part of the behavioral team.
