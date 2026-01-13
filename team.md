@@ -115,7 +115,7 @@ Outside the lab, I teach experiential science, ride horses regularly, and use my
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos/Adolf András - webpage picture.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>András Adolf</h3>
     <p>"I work in the behavior team, where I develop and maintain the experiment leader application used to run behavioral experiments.
