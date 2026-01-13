@@ -7,5 +7,7 @@ title: Streamlined biologist-data scientist team
   
 <p>We collaborate closely with clinicians because their feedback helps us pose research questions focused on real clinical needs. This collaboration accelerates the path from basic research discoveries to new diagnostic and therapeutic approaches. As a result, our findings can reach patients as quickly as possible.</p>
 
+<p>Meet our team <a href="/team.html"
+   target="_blank"
+   rel="noopener noreferrer">here</a>.</p>
 
-![Human Project](/assets/images/human.png)
