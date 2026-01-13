@@ -47,7 +47,7 @@ title: Meet the Team
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/ alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos/Trixi.jpeg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Beatrix Kovacs</h3>
     <p>"In the lab, I focus on molecular biology and cell-based work. What matters most to me is clarity - in experimental design, documentation, and everyday lab work - because good science needs structure, not chaos. Outside the lab, I recharge through art, especially theater, concerts, and exhibitions."</p>
@@ -115,10 +115,20 @@ Outside the lab, I teach experiential science, ride horses regularly, and use my
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
+  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <div>
+    <h3>András Adolf</h3>
+    <p>"I work in the behavior team, where I develop and maintain the experiment leader application used to run behavioral experiments.
+I find it particularly important to write clear, reliable Python code that supports reproducible experiments and smooth collaboration within the lab.
+Outside the lab, I enjoy running, playing the guitar, and spending time with friends over board games."</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Fanni.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Fanni Soos</h3>
-    <p>"As a laboratory assistant in our group, I take part in processing and analyzing experimental samples in the anatomy lab."</p>
+    <p>"I work as an assistant in the anatomy lab, where I support daily activities and pay close attention to precision and detail. I am proud of maintaining a clean, organized, and cosy lab environment, as I believe it contributes to better learning and work conditions. Outside the lab, I enjoy spending time reading and have a special fondness for cats."</p>
   </div>
 </div>
 
