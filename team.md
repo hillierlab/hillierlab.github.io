@@ -131,7 +131,7 @@ Outside the lab, I teach experiential science, ride horses regularly, and use my
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/ alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <img src="/assets/images/member_photos/1768292855876.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Luca Benedek</h3>
     <p>"I work as an animal house assistant in the laboratory. I find it important to maintain the animals’ well-being and support the researchers’ work effectively. Outside the lab, I love folk music and I am learning to play the zither and viola."</p>
