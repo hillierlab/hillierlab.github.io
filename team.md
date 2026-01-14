@@ -38,7 +38,7 @@ title: Meet the Team
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
   <img src="/assets/images/member_photos/Doma.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
-    <h3>Domonkos Horvath</h3>
+    <h3>Domonkos Horváth</h3>
     <p>"As a postdoc in the lab, my research centers on chronic imaging experiments in large-brained animals, primarily under anesthesia. In our lab, I plan, organize, and conduct these experiments collaboratively with our team, and advancing our understanding of brain function through precise and systematic application of chronic imaging approaches through a good team effort is what matters the most to me. Outside the lab, I support scouting with my volunteer work and I am keen on hiking with my family and friends."</p>
   </div>
 </div>
@@ -46,7 +46,7 @@ title: Meet the Team
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Trixi.jpeg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
-    <h3>Beatrix Kovacs</h3>
+    <h3>Beatrix Kovács</h3>
     <p>"In the lab, I focus on molecular biology and cell-based work. What matters most to me is clarity - in experimental design, documentation, and everyday lab work - because good science needs structure, not chaos. Outside the lab, I recharge through art, especially theater, concerts, and exhibitions."</p>
   </div>
 </div>
@@ -64,7 +64,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Abel.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
-    <h3>Abel Petik</h3>
+    <h3>Ábel Petik</h3>
     <p>"I'm the main developer and data analyst of the functional brain imaging team. I take pride in the well thought out nature of the software we create. In my free time I cherish dancing and making music."</p>
   </div>
 </div>
@@ -80,7 +80,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
   <img src="/assets/images/member_photos/Beni.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
-    <h3>Bendeguz Fekete</h3>
+    <h3>Bendegúz Fekete</h3>
     <p>“I work on our human EEG project, investigating brain alterations associated with amblyopia using a range of statistical methods. My main research interest is how perception works, with a particular focus on predictive coding.”</p>
   </div>
 </div>
@@ -89,16 +89,14 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
   <img src="/assets/images/member_photos/Kinga.JPEG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Sarolt Kinga Gintner</h3>
-    <p>"In the group, I manage the work of the Animal House team, am responsible for the care and welfare of the animals and besides this, I research the visual aspects of higher-order species behavior. 
-I am especially interested in how we can understand fine signals from animals, how these can be measured in an automated settings, and how human-animal interaction can be made more effective and a positive experience for both sides.
-Outside the lab, I teach experiential science, ride horses regularly, and use my precision and creativity in a leadership role in my community."</p>
+    <p>"In the group, I manage the work of the Animal House team, am responsible for the care and welfare of the animals and besides this, I research the visual aspects of higher-order species behavior. I'm particularly interested in decoding subtle animal signals, automating their measurement, and enhancing human-animal interactions to benefit both sides. Outside the lab, I teach experiential science, ride horses regularly, and apply my precision and creativity in a community leadership role."</p>
   </div>
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
   <img src="/assets/images/member_photos/Barna.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
-    <h3>Barna Kovacs</h3>
+    <h3>Barna Kovács</h3>
     <p>"I mainly work on the development side, so my strengths are in programming areas like data analysis and computational modelling. I enjoy spending my free time in nature, especially when it snows a little, and by playing board games."</p>
   </div>
 </div>
@@ -127,14 +125,14 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
     <h3>Petra Kornidesz</h3>
     <p>"I'm part of the behavioral team.
  What matters most to me in my work is creativity and precision, especially in how questions are framed and studied.
-Outside the lab, I am passionate about sports, as it helps me recharge, and stay balanced. "</p>
+Outside the lab, I am passionate about sports, as it helps me recharge, and stay balanced."</p>
   </div>
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Fanni.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
-    <h3>Fanni Soos</h3>
+    <h3>Fanni Soós</h3>
     <p>"I work as an assistant in the anatomy lab, where I support daily activities and pay close attention to precision and detail. I am proud of maintaining a clean, organized, and cosy lab environment, as I believe it contributes to better learning and work conditions. Outside the lab, I enjoy spending time reading and have a special fondness for cats."</p>
   </div>
 </div>
@@ -142,7 +140,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
   <img src="/assets/images/member_photos/Virag.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
-    <h3>Virag Gyorgy</h3>
+    <h3>Virág György</h3>
     <p>"I work in the anatomy laboratory, where I focus on tissue sample processing, histological preparation, and experimental data analysis. I am continuously developing myself and learning new techniques, including rodent experimental methods. Beyond the lab, dancing plays an important role in my life - particularly folk dance, belly dance and West Coast Swing."</p>
   </div>
 </div>
@@ -175,7 +173,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
   <img src="/assets/images/member_photos/Gabi.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Gabriella Trieb</h3>
-    <p>"I work as a research assistant on human EEG experiments. I enjoy working with people and helping participants feel informed and comfortable throughout the studies. In every season, I recharge through movement and sports in nature and have a strong interest in group dynamics and self-awareness.</p>
+    <p>"I work as a research assistant on human EEG experiments. I enjoy working with people and helping participants feel informed and comfortable throughout the studies. In every season, I recharge through movement and sports in nature and have a strong interest in group dynamics and self-awareness."</p>
   </div>
 </div>
 
