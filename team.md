@@ -159,7 +159,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
   <img src="/assets/images/member_photos/Hanna.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Hanna Orvos-Nagy</h3>
-    <p>"My role is to assist the research group by taking care of the animals in the Animal House and the mice enclosure, monitoring their health, administering medication, and providing them with a comfortable and safe environment. In my spare time I enjoy creative activities, such as drawing, sewing and crafting, and I really love playing board games with my friends, sometimes for hours on end./p>
+    <p>"My role is to assist the research group by taking care of the animals in the Animal House and the mice enclosure, monitoring their health, administering medication, and providing them with a comfortable and safe environment. In my spare time I enjoy creative activities, such as drawing, sewing and crafting, and I really love playing board games with my friends, sometimes for hours on end."</p>
   </div>
 </div>
 
@@ -167,7 +167,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
   <img src="/assets/images/member_photos/Zsombi.JPEG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Zsombor Fülei</h3>
-    <p>"In the research group I am an Animal House assistant, and my main responsibilities are daily cleanings and measuring out medications. Currently I'm a Master's student in Biology. Outside the lab my research focuses on the population genetics of ancient camels from the Pannonia region, I'm also interested in history, social sciences, the Serbian language and board games".p>
+    <p>"In the research group I am an Animal House assistant, and my main responsibilities are daily cleanings and measuring out medications. Currently I'm a Master's student in Biology. Outside the lab my research focuses on the population genetics of ancient camels from the Pannonia region, I'm also interested in history, social sciences, the Serbian language and board games."</p>
   </div>
 </div>
 
