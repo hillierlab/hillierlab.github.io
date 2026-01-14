@@ -156,12 +156,21 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/1768292855876.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <img src="/assets/images/member_photos/Hanna.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Hanna Orvos-Nagy</h3>
-    <p>"My role is to assist the research group by taking care of the animals in the Animal House and the mice enclosure, monitoring their health, administering medication, and providing a clean and safe environment.I find it especially important that we offer a safe and comfortable life for laboratory animals. In my spare time I enjoy creative activities, such as drawing, sewing and crafting, and I really love playing board games with my friends, sometimes for hours on end.</p>
+    <p>"My role is to assist the research group by taking care of the animals in the Animal House and the mice enclosure, monitoring their health, administering medication, and providing them with a comfortable and safe environment. In my spare time I enjoy creative activities, such as drawing, sewing and crafting, and I really love playing board games with my friends, sometimes for hours on end./p>
   </div>
 </div>
+
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <div>
+    <h3>Zsombor Fülei</h3>
+    <p>"In the research group I am an Animal House assistant, and my main responsibilities are daily cleanings and measuring out medications. Currently I'm a Master's student in Biology. Outside the lab my research focuses on the population genetics of ancient camels from the Pannonia region, I'm also interested in history, social sciences, the Serbian language and board games.p>
+  </div>
+</div>
+
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Gabi.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
