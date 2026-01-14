@@ -164,7 +164,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/Zsombi.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <img src="/assets/images/member_photos/Zsombi.JPEG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Zsombor Fülei</h3>
     <p>"In the research group I am an Animal House assistant, and my main responsibilities are daily cleanings and measuring out medications. Currently I'm a Master's student in Biology. Outside the lab my research focuses on the population genetics of ancient camels from the Pannonia region, I'm also interested in history, social sciences, the Serbian language and board games".p>
