@@ -41,7 +41,7 @@ title: Meet the Team
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/Doma.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <img src="/assets/images/member_photos/Doma.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Domonkos Horváth</h3>
     <p>"As a postdoc in the lab, my research centers on chronic imaging experiments in large-brained animals, primarily under anesthesia. In our lab, I plan, organize, and conduct these experiments collaboratively with our team, and advancing our understanding of brain function through precise and systematic application of chronic imaging approaches through a good team effort is what matters the most to me. Outside the lab, I support scouting with my volunteer work and I am keen on hiking with my family and friends."</p>
@@ -49,7 +49,7 @@ title: Meet the Team
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/Trixi.jpeg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos/Trixi.jpeg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Beatrix Kovács</h3>
     <p>"In the lab, I focus on molecular biology and cell-based work. What matters most to me is clarity - in experimental design, documentation, and everyday lab work - because good science needs structure, not chaos. Outside the lab, I recharge through art, especially theater, concerts, and exhibitions."</p>
@@ -57,7 +57,7 @@ title: Meet the Team
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/Klau.jpeg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <img src="/assets/images/member_photos/Klau.jpeg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Klaudia Csikós</h3>
     <p>"My work involves experimental design, implant and surgical preparation, and multimodal data acquisition and analysis to study how the brain processes visual information.
@@ -67,7 +67,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
 </div> 
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/Abel.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos/Abel.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Ábel Petik</h3>
     <p>"I'm the main developer and data analyst of the functional brain imaging team. I take pride in the well thought out nature of the software we create. In my free time I cherish dancing and making music."</p>
@@ -75,7 +75,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Fanni Somogyi</h3>
     <p>"I am working with rodent and large animal models, combining surgical techniques, AAV-based delivery, functional imaging and tissue analysis. I am motivated by designing complex experiments that require careful planning and coordination, as this allows us to address meaningful scientific questions. Outside the lab, I am always up for a good conversation over coffee or a board game night with my husband and friends."</p>
@@ -115,7 +115,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/Andris.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos/Andris.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>András Adolf</h3>
     <p>"I work in the behavior team, where I develop and maintain the experiment leader application used to run behavioral experiments.
@@ -135,7 +135,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em;">
-  <img src="/assets/images/member_photos/Fanni.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos/Fanni.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Fanni Soós</h3>
     <p>"I work as an assistant in the anatomy lab, where I support daily activities and pay close attention to precision and detail. I am proud of maintaining a clean, organized, and cosy lab environment, as I believe it contributes to better learning and work conditions. Outside the lab, I enjoy spending time reading and have a special fondness for cats."</p>
@@ -143,7 +143,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/Virag.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <img src="/assets/images/member_photos/Virag.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Virág György</h3>
     <p>"I work in the anatomy laboratory, where I focus on tissue sample processing, histological preparation, and experimental data analysis. I am continuously developing myself and learning new techniques, including rodent experimental methods. Beyond the lab, dancing plays an important role in my life - particularly folk dance, belly dance and West Coast Swing."</p>
@@ -159,7 +159,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/Hanna.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <img src="/assets/images/member_photos/Hanna.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Hanna Orvos-Nagy</h3>
     <p>"My role is to assist the research group by taking care of the animals in the Animal House and the mice enclosure, monitoring their health, administering medication, and providing them with a comfortable and safe environment. In my spare time I enjoy creative activities, such as drawing, sewing and crafting, and I really love playing board games with my friends, sometimes for hours on end."</p>
