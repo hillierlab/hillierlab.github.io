@@ -40,8 +40,8 @@ title: Meet the Team
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row;">
-  <img src="/assets/images/member_photos/Doma.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+    <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row;"> 
+  <img src="/assets/images/member_photos/Kinga.JPEG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Domonkos Horváth</h3>
     <p>"As a postdoc in the lab, my research centers on chronic imaging experiments in large-brained animals, primarily under anesthesia. In our lab, I plan, organize, and conduct these experiments collaboratively with our team, and advancing our understanding of brain function through precise and systematic application of chronic imaging approaches through a good team effort is what matters the most to me. Outside the lab, I support scouting with my volunteer work and I am keen on hiking with my family and friends."</p>
