@@ -40,7 +40,7 @@ title: Meet the Team
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+<div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Doma.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Domonkos Horváth</h3>
@@ -48,7 +48,7 @@ title: Meet the Team
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em;">
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
   <img src="/assets/images/member_photos/Trixi.jpeg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Beatrix Kovács</h3>
@@ -56,7 +56,7 @@ title: Meet the Team
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+<div style="display: flex; align-items: center; margin-bottom: 2em; 
   <img src="/assets/images/member_photos/Klau.jpeg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Klaudia Csikós</h3>
@@ -66,7 +66,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
   </div>
 </div> 
 
-<div style="display: flex; align-items: center; margin-bottom: 2em;">
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
   <img src="/assets/images/member_photos/Abel.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Ábel Petik</h3>
@@ -74,7 +74,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+<div style="display: flex; align-items: center; margin-bottom: 2em;
   <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Fanni Somogyi</h3>
@@ -114,7 +114,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em;">
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">  
   <img src="/assets/images/member_photos/Andris.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>András Adolf</h3>
@@ -134,7 +134,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em;">
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
   <img src="/assets/images/member_photos/Fanni.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Fanni Soós</h3>
@@ -142,7 +142,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+<div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Virag.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Virág György</h3>
@@ -158,7 +158,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+<div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Hanna.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Hanna Orvos-Nagy</h3>
@@ -174,7 +174,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+<div style="display: flex; align-items: center; margin-bottom: 2em;">
   <img src="/assets/images/member_photos/Gabi.jpg" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Gabriella Trieb</h3>
