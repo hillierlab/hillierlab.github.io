@@ -74,7 +74,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em;flex-direction: row;">
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row;"> 
   <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Fanni Somogyi</h3>
