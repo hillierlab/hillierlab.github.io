@@ -40,7 +40,7 @@ title: Meet the Team
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em;">
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-rirection: row;">
   <img src="/assets/images/member_photos/Doma.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Domonkos Horváth</h3>
