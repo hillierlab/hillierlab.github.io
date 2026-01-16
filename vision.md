@@ -4,8 +4,6 @@ title: Vision
 ---
 <p>The mission of our lab is to reopen the so-called "windows of plasticity" that close after childhood–period when the brain is particularly malleable, highly receptive to environmental influences, and capable of rapid change. Re-establishing this flexibility would enable us to effectively treat severe conditions in adulthood, such as functional blindness or complex emotional disorders like depression.</p>
 
-<img src="/assets/images/member_photos/Dani2.JPEG" alt="Member Name"
-
 <p>Our main interest is to revisit amblyopia and blindness using the state-of-the-art toolkit of the 21st century's biotechnological revolution. Instead of the crude interventions of the past, we employ the tools of precision medicine to develop subtle, targeted therapies. This approach allows us to restore lost functions in the fully developed nervous system with minimal interference.</p>
 
 <p>The key to our success is a multidisciplinary approach. We apply a wide range of methodologies, from molecular biology and the design of viral-therapy vectors to behavioral research. We know that complex functions like sharp vision or emotional communication cannot be effectively studied in simple models. This is why, in addition to mice, we work with species that share more similarities with humans, such as cats and primates.</p>
