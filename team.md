@@ -183,7 +183,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
+  <img src="/assets/images/member_photos/Gabor.JPEG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Gábor Ábrahám</h3>
     <p>"Currently, I do microscopic image processing and cell segmentation in the lab. I find challenging myself important and like coming up with creative solutions to problems. Outside the lab, I am passionate about music, cooking and sports among a lot of other things."</p>
@@ -191,7 +191,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 </div>
 
 <h1> Alumni </h1>
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row;">
   <img src="/assets/images/member_photos/Mariela.JPG" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
   <div>
     <h3>Mariela Talavera Munoz</h3>
