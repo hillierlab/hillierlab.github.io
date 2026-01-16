@@ -26,12 +26,28 @@ The article published in Frontiers in Immunology can be found <a href="https://w
    target="_blank"
    rel="noopener noreferrer">here</a>.
 
+## Patient–Researcher Dialogue with László Joszt
+*21 May, 2024*
+László Joszt, Vision Rehabilitation Teacher with lived experience of blindness, was visiting the Hillier Lab, giving the opportunty to share the hopes and  perspectives of both sides according to blindness and restoring vision.
+
+## Understanding Brain Dysfunction in Amblyopia Using Large-Scale Multimodal Recordings
+*2 Nov, 2023*
+HUN-REN TTK and TINS invited all interested parties for a series of short talks that reported about the latest results of the Hillier lab.
+
+## 1st prize at the national scientific student conference
+*5 May, 2023*
+Csikós Klaudia won 1st prize at the National Scientific Student Conference in the Biology section for her work on the development of a modular implant system and preclinical validation through multimodal brain activity studies, highlighting her creativity, dedication, and significant contribution to the group.
+
 ## Advances in Understanding Visual Processing from Retina to Brain
 *14 Sept, 2022*
 This editorial, published in Frontiers, introduces a Research Topic featuring eight papers that explore the mammalian visual system across multiple species including mice, rats, cats, macaques, and humans, spanning from retinal processing to cortical mechanisms. The collection examines intrinsically photosensitive retinal ganglion cells and their survival mechanisms, the effects of low-dose atropine on visual signal processing, optical coherence tomography for imaging human retinal layers, and computational modeling of the cortico-pulvinar network in subcortical visual processing. Three papers investigate the primary visual cortex, exploring binocular matching during the critical period of visual development, methods for extracting retinotopic maps from imaging data, and how spatial attention modulates interactions between simple and complex direction-selective cells with non-overlapping receptive fields. The Research Topic also presents a new open-source Python tool for real-time pupil tracking across species, demonstrating the breadth of current visual neuroscience research from basic cellular mechanisms to computational approaches.
 The article published in Frontiers in Cellular Neurosicence can be found <a href="https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2022.1018229/full"
    target="_blank"
    rel="noopener noreferrer">here</a>.
+
+## NRDI Honors Students with UNKP Scholarships
+*6 Sept, 2022*
+Klaudia Csikos, Ábel Petik, Fanni Veres, and Anett Matuscsak (mentored by Dániel Hillier) receive the prestigious and highly competitive UNKP Scholarship offered by the National Research, Development, and Innovation Office (NRDI).
 
 ## Hungarian-Led European Consortium Investigates Amblyopia
 *15 Dec, 2021*
