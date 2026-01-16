@@ -9,3 +9,7 @@ title: Vision
 <p>The key to our success is a multidisciplinary approach. We apply a wide range of methodologies, from molecular biology and the design of viral-therapy vectors to behavioral research. We know that complex functions like sharp vision or emotional communication cannot be effectively studied in simple models. This is why, in addition to mice, we work with species that share more similarities with humans, such as cats and primates.</p>
 
 <p>We collaborate closely with clinicians to ensure our research findings can reach patients as quickly as possible. We believe that within the next 10–20 years, the procedures we are developing can achieve clinical application, building on progress already seen in fields like sight restoration. We are deeply aware that patients and their families look to our work with immense hope. This responsibility motivates us every day to bring real, meaningful change to the lives of the millions who struggle with severe neurological and psychiatric diseases.</p>
+
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
+  <img src="/assets/images/member_photos/<img width="593" height="593" alt="Szofelho" src="https://github.com/user-attachments/assets/6d2c31b2-53c2-4c41-8096-6f811deac9aa" />
+ alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-left: 20px;">
