@@ -10,6 +10,5 @@ title: Vision
 
 <p>We collaborate closely with clinicians to ensure our research findings can reach patients as quickly as possible. We believe that within the next 10–20 years, the procedures we are developing can achieve clinical application, building on progress already seen in fields like sight restoration. We are deeply aware that patients and their families look to our work with immense hope. This responsibility motivates us every day to bring real, meaningful change to the lives of the millions who struggle with severe neurological and psychiatric diseases.</p>
 
-<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row-reverse;">
-  <img src="/assets/images/member_photos/Szofelho.JPEG" <img width="593" height="593" alt="Szofelho" src="https://github.com/user-attachments/assets/6d2c31b2-53c2-4c41-8096-6f811deac9aa" />
- 
+<div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row;">
+  <img src="/assets/images/member_photos/Szofelho.JPEG" alt="Szofelho" width="150" high="150" style=aspect-ratio: 1/1; border-radius: 50%; objekt-fit: cover;">
