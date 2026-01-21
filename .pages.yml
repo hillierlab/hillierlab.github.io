@@ -5,23 +5,11 @@ media:
 content:
   - name: pages
     label: Pages
-    path: .                 # Scan the root folder
+    path: _pages              # points to where your files actually are
     type: collection
-    filename: '{slug}.md'   # <--- FIX: Tells CMS to look for "name.md" instead of dates
-    exclude:                # <--- FIX: Hides system files from the editor
-      - README.md
-      - LICENSE
-      - _config.yml
-      - Gemfile
-      - Gemfile.lock
     view:
       title: title
     fields:
-      - name: slug
-        label: Filename (Slug)
-        type: string
-        required: true
-        pattern: '^[a-z0-9-_]+$' # Ensures filenames are web-safe
       - name: title
         label: Title
         type: string
@@ -31,6 +19,10 @@ content:
         type: string
         default: page
         hidden: true
+      - name: permalink
+        label: URL Path
+        type: string
+        description: 'The URL for this page (e.g., /contact/ or /biotechnology/)'
       - name: body
         label: Body
         type: rich-text
