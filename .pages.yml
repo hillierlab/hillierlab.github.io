@@ -1,15 +1,27 @@
 media:
-  input: assets/images      # Matches your screenshot's folder
-  output: /assets/images    # Path used in the HTML
+  input: assets/images
+  output: /assets/images
 
 content:
   - name: pages
     label: Pages
-    path: .                 # Points to the root folder where your .md files are
+    path: .                 # Scan the root folder
     type: collection
+    filename: '{slug}.md'   # <--- FIX: Tells CMS to look for "name.md" instead of dates
+    exclude:                # <--- FIX: Hides system files from the editor
+      - README.md
+      - LICENSE
+      - _config.yml
+      - Gemfile
+      - Gemfile.lock
     view:
-      title: title          # Displays the 'title' from front matter in the list
+      title: title
     fields:
+      - name: slug
+        label: Filename (Slug)
+        type: string
+        required: true
+        pattern: '^[a-z0-9-_]+$' # Ensures filenames are web-safe
       - name: title
         label: Title
         type: string
@@ -17,8 +29,8 @@ content:
       - name: layout
         label: Layout
         type: string
-        default: page       # Defaults to the 'page' layout seen in your _layouts
-        hidden: true        # Hides this field so you don't accidentally break it
+        default: page
+        hidden: true
       - name: body
         label: Body
-        type: rich-text     # The visual editor for your text
+        type: rich-text
