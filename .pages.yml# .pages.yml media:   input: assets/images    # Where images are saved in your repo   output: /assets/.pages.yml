@@ -1,0 +1,24 @@
+media:
+  input: assets/images      # Matches your screenshot's folder
+  output: /assets/images    # Path used in the HTML
+
+content:
+  - name: pages
+    label: Pages
+    path: .                 # Points to the root folder where your .md files are
+    type: collection
+    view:
+      title: title          # Displays the 'title' from front matter in the list
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: layout
+        label: Layout
+        type: string
+        default: page       # Defaults to the 'page' layout seen in your _layouts
+        hidden: true        # Hides this field so you don't accidentally break it
+      - name: body
+        label: Body
+        type: rich-text     # The visual editor for your text
