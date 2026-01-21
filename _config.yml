@@ -4,3 +4,7 @@ title: "Roadmap to the Rewiring of the Brain"
 description: "Experimental Jekyll site"
 theme: minima
 rebuild_trigger: "2025-10-11-b"
+collections:
+  pages:
+    output: true
+    permalink: /:path/

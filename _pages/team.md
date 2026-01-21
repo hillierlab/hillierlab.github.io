@@ -75,7 +75,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 2em; flex-direction: row;"> 
-  <img src="/assets/images/member_photos/" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+  <img src="/assets/images/member_photos" alt="Member Name" style="width: 150px; height: 150px; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Fanni Somogyi</h3>
     <p>"I am working with rodent and large animal models, combining surgical techniques, AAV-based delivery, functional imaging and tissue analysis. I am motivated by designing complex experiments that require careful planning and coordination, as this allows us to address meaningful scientific questions. Outside the lab, I am always up for a good conversation over coffee or a board game night with my husband and friends."</p>
