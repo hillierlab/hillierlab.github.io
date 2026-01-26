@@ -2,8 +2,23 @@
 layout: page
 title: Collaborations
 ---
+<style>
+  
+.collab-item{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+  }
 
-<p>HUN-REN TTK</p> <img src="/assets/images/HUN-REN_logo.png">
+.collab-logo{
+  height: 40px;
+  width: auto;
+  }
+    
+  </style>
+
+  <p>HUN-REN TTK</p> <img src="/assets/images/HUN-REN_logo.png">
 
 <p>ERA-NET: Amblyopia, imaging techniques, behavioural methodologies</p> <img src="/assets/images/ERA-NET_neuron.png">
 
