@@ -19,7 +19,8 @@ In a study published in Nature Gene Therapy, our lab has developed a new method 
 The article published in Nature Gene Therapy can be found <a href="https://www.nature.com/articles/s41434-025-00567-0.epdf?sharing_token=JO-JspnumbR5VIeNpUvoDNRgN0jAjWel9jnR3ZoTv0OCbXopM-ytCkLW1gGj99PrBXnPNhPgVyRs577ay1w3DkRLmH07WwLO_g9GqzRBQzK9D4VuuQR0Sc7XdjlOsUOYem5yHVBfsbmLODhLbfebZ_MWqWIFL4WyKTU-aKvBzTk%3D"
    target="_blank"
    rel="noopener noreferrer">here</a>.
-
+   <img class="photo-right" src="/assets/images/Nature_gene_therapy_AI.png" alt="Dániel Hillier">
+      
 ## A diagnostic method for the development of gene therapies
 *21 Aug, 2025*
 In a publication in the leading journal Frontiers in Immunology, our lab has introduced coreTIA, a pioneering open-source diagnostic method designed to accelerate the development of gene therapies. A major challenge in this field is that pre-existing antibodies can neutralize these expensive treatments, but testing for them has been hampered by a lack of standardized, reliable tools. Our coreTIA method solves this by providing the first universally accessible and validated protocol to accurately measure these antibodies in blood samples across multiple species, including humans. By making this tool freely available, we aim to establish a global diagnostic standard, helping to overcome the scientific 'reproducibility crisis' and shorten the path for getting safe and effective therapies from the lab to patients who need them.
