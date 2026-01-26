@@ -17,4 +17,4 @@ title: Collaborations
 
 <p>PPKE: Data analytics</p> <img src="/assets/images/Pazmany_logo.png">
 
-<p>Richter Neuropszichiátria Hálózat: feline-primate model translation</p> <img src="/assets/images/Richter_logo.png">
+<p>Richter Neuropszichiátria Hálózat: feline-primate model translation</p> <img src="/assets/images/Richter_logo.png"
