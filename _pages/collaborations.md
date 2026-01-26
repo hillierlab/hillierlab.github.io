@@ -2,6 +2,7 @@
 layout: page
 title: Collaborations
 ---
+
 <p>HUN-REN TTK</p> <img src="/assets/images/HUN-REN_logo.png">
 
 <p>ERA-NET: Amblyopia, imaging techniques, behavioural methodologies</p> <img src="/assets/images/ERA-NET_neuron.png">
@@ -17,4 +18,4 @@ title: Collaborations
 
 <p>PPKE: Data analytics</p> <img src="/assets/images/Pazmany_logo.png">
 
-<p>Richter Neuropszichiátria Hálózat: feline-primate model translation</p> <img src="/assets/images/Richter_logo.png"
+<p>Richter Neuropszichiátria Hálózat: feline-primate model translation</p> <img src="/assets/images/Richter_logo.png">
