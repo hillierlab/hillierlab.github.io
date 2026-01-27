@@ -12,7 +12,7 @@ A recently published Nature commentary (December 2025) argues that alternatives 
 ## Award-winning research in the lab
 *28 Nov, 2025*  
 Adrienn Ingrid Vörös received 2nd place at the Scientific Students’ Conference on 28 Nov 2025 for her project titled “A quantitative study of the relationship between motivation and performance.”
-<img src="assets/images/adri_tdk.png" alt="Dániel Hillier" style="width:100px; height:auto; float:right; margin-left:10px; margin-bottom:5px;">
+<img class="photo-right" src="assets/images/adri_tdk.png" alt="Dániel Hillier">
 
 ## New Assay Fixes Critical Flaw in Gene Therapy Screening
 *29 Sept, 2025*
