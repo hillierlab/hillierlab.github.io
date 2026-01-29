@@ -3,30 +3,6 @@ layout: page
 title: Vision
 ---
 
-<style>
-  html:not(.happy) .cta-streamlined-card:hover { background:#fff; color:#000; }
-  html.happy .cta-streamlined-card:hover { background:#000; color:#fff; }
-
-  .cta-wrap { position:relative; margin-bottom:2rem; }
-  .cta-overlay {
-    position:absolute; inset:0; z-index:2;
-    display:block;
-  }
-  .cta-streamlined-card {
-    position:relative; z-index:1;
-    display:flex; align-items:center; justify-content:space-between;
-    border:2px solid currentColor; border-radius:12px;
-    padding:14px 10px 14px 20px;
-    transition:background-color .3s ease, color .3s ease;
-    text-decoration:none; color:inherit;
-  }
-  .photo-right {
-    float: right;
-    margin-left: 20px;
-    -webkit-shape-outside: circle(50% at 50% 50%);
-    shape-outside: circle(50% at 50% 50%);
-    shape-margin: 12px;
-  }
    
   <p>The mission of our lab is to reopen the so-called "windows of plasticity" that close after childhood–period when the brain is particularly malleable, highly receptive to environmental influences, and capable of rapid change. Re-establishing this flexibility would enable us to effectively treat severe conditions in adulthood, such as functional blindness or complex emotional disorders like depression.</p>
 
