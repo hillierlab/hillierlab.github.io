@@ -3,8 +3,8 @@ layout: page
 title: Vision
 ---
 
-   
-  <p>The mission of our lab is to reopen the so-called "windows of plasticity" that close after childhood–period when the brain is particularly malleable, highly receptive to environmental influences, and capable of rapid change. Re-establishing this flexibility would enable us to effectively treat severe conditions in adulthood, such as functional blindness or complex emotional disorders like depression.</p>
+<img class="photo-left" src="/assets/images/wordcloud_eye.png">
+<p>The mission of our lab is to reopen the so-called "windows of plasticity" that close after childhood–period when the brain is particularly malleable, highly receptive to environmental influences, and capable of rapid change. Re-establishing this flexibility would enable us to effectively treat severe conditions in adulthood, such as functional blindness or complex emotional disorders like depression.</p>
 
 <p>Our main interest is to revisit amblyopia and blindness using the state-of-the-art toolkit of the 21st century's biotechnological revolution. Instead of the crude interventions of the past, we employ the tools of precision medicine to develop subtle, targeted therapies. This approach allows us to restore lost functions in the fully developed nervous system with minimal interference.</p>
 
@@ -12,5 +12,3 @@ title: Vision
 
 <p>We collaborate closely with clinicians to ensure our research findings can reach patients as quickly as possible. We believe that within the next 10–20 years, the procedures we are developing can achieve clinical application, building on progress already seen in fields like sight restoration. We are deeply aware that patients and their families look to our work with immense hope. This responsibility motivates us every day to bring real, meaningful change to the lives of the millions who struggle with severe neurological and psychiatric diseases.</p>
 
-  <img class="photo-left" src="/assets/images/wordcloud_eye.png">
-  
