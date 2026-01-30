@@ -3,8 +3,8 @@ layout: page
 title: Vision
 ---
  <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
-<img class="photo-left" src="/assets/images/wordcloud_eye.png" style="height:50px; width:auto;" alt="HUN-REN logo">
-  </div>
+<img class="photo-left" src="/assets/images/wordcloud_eye.png" style="height:150px; width:auto;" alt="HUN-REN logo">
+  </div>  
 <p>The mission of our lab is to reopen the so-called "windows of plasticity" that close after childhood–period when the brain is particularly malleable, highly receptive to environmental influences, and capable of rapid change. Re-establishing this flexibility would enable us to effectively treat severe conditions in adulthood, such as functional blindness or complex emotional disorders like depression.</p>
 
 <p>Our main interest is to revisit amblyopia and blindness using the state-of-the-art toolkit of the 21st century's biotechnological revolution. Instead of the crude interventions of the past, we employ the tools of precision medicine to develop subtle, targeted therapies. This approach allows us to restore lost functions in the fully developed nervous system with minimal interference.</p>
