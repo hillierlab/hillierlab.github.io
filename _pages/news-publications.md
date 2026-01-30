@@ -31,10 +31,7 @@ The article published in Frontiers in Immunology can be found <a href="https://w
 ## Patient–Researcher Dialogue with László Joszt
 *21 May, 2024*
 László Joszt, a Vision Rehabilitation Teacher with lived experience of blindness, visited the Hillier Lab and shared his personal story of losing his vision, creating an opportunity to exchange hopes and perspectives on blindness and vision restoration from both sides.
-<video width="600" controls>
-  <source src="assets/video/laci_interju2.mp4" type="video/mp4">
-</video>
-
+  
 ## Understanding Brain Dysfunction in Amblyopia Using Large-Scale Multimodal Recordings
 *2 Nov, 2023*
 HUN-REN TTK and TINS invited all interested parties for a series of short talks that reported about the latest results of the Hillier lab.
