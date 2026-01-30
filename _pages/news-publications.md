@@ -1,7 +1,6 @@
 ---
 layout: page
 title: News
-
 ---
 ## Nature Publication on Animal Research Ethics
 *2 Dec, 2025*
