@@ -38,7 +38,7 @@ title: Collaborations
 <div class="collab-container">
   <div class="collab-row">
     <p>HUN-REN TTK</p>
-    <img src="/assets/images/logos/HUN-REN_logo.png" alt="HUN-REN logo">
+    <img src="/assets/images/logos/HUN-REN_logo2.png" alt="HUN-REN logo">
   </div>
   
   <div class="collab-row">
@@ -48,7 +48,7 @@ title: Collaborations
   
   <div class="collab-row">
     <p>Institute of Molecular and Clinical Ophthalmology Basel (IOB): functional ultrasound imaging</p>
-    <img src="/assets/images/logos/IOB_logo.png" alt="IOB logo">
+    <img src="/assets/images/logos/IOB_logo2.png" alt="IOB logo">
   </div>
   
   <div class="collab-row">
@@ -82,7 +82,7 @@ title: Collaborations
   </div>
   
   <div class="collab-row">
-    <p>Richter Neuropszichiátria Hálózat: feline-primate model translation</p>
+    <p>Richter Neuropsychiatry Network: feline-primate model translation</p>
     <img src="/assets/images/logos/Richter_logo.png" alt="Richter logo">
   </div>
 </div>
