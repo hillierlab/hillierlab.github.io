@@ -4,24 +4,34 @@ title: Collaborations
 ---
 
 <style>
-  .collab-container {
-    width: 100%; /* ensures full width for alignment */
+  .collab-container{
+    width: 100%;
   }
-  .collab-row {
+
+  .collab-row{
     display: flex;
     align-items: center;
-    justify-content: space-between; /* pushes logo to far right */
     gap: 16px;
     margin-bottom: 12px;
+    width: 100%;
   }
-  .collab-row p {
-    margin: 0; /* removes default paragraph margins */
-    flex: 0 1 auto; /* prevents paragraph from expanding */
+
+  /* Let the text column expand so the logo can be pushed to the far right */
+  .collab-row p{
+    margin: 0;
+    flex: 1 1 auto;
+    min-width: 0; /* allows wrapping instead of pushing the logo off */
   }
-  .collab-row img {
+
+  /* Push logo to the far right and keep its right edge aligned */
+  .collab-row img{
     height: 50px;
     width: auto;
-    flex-shrink: 0; /* prevents logo from shrinking */
+    max-width: 240px; /* optional: prevents huge logos on small screens */
+    margin-left: auto;
+    flex: 0 0 auto;
+    display: block;
+    object-fit: contain;
   }
 </style>
 
