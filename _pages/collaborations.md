@@ -4,24 +4,20 @@ title: Collaborations
 ---
 
 <style>
-  .collab-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
   .collab-row {
     display: flex;
     align-items: center;
     gap: 16px;
+    margin-bottom: 12px;
   }
   .collab-row img {
     height: 50px;
     width: auto;
-    margin-left: auto; /* ensures logo is on the right edge */
+    margin-left: auto; /* pushes logo to a right-side column */
   }
 </style>
 
-<div class="collab-list">
+<div>
 
   <div class="collab-row">
     <p>HUN-REN TTK</p>
@@ -39,7 +35,7 @@ title: Collaborations
   </div>
 
   <div class="collab-row">
-    <p>German Primate Center (DPZ): past collaboration, functional ultrasound imaging</p>
+    <p>German Primate Center (DPZ): past collaboration, primate models</p>
     <img src="/assets/images/logos/DPZ_logo.png" alt="DPZ logo">
   </div>
 
@@ -49,7 +45,7 @@ title: Collaborations
   </div>
 
   <div class="collab-row">
-    <p>Central Europe Leuven Strategic Alliance (CELSA) - KU Leuven - Wim Vanduffel: validation of biotech tools in primates</p>
+    <p>Central Europe Leuven Strategic Alliance (CELSA) - KU Leuven - Wim Vanduffel, cat->primate translation</p>
     <img src="/assets/images/logos/CELSA_logo.png" alt="CELSA logo">
   </div>
 
