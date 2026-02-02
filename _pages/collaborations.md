@@ -3,30 +3,56 @@ layout: page
 title: Collaborations
 ---
 
-<p style="text-align: right;">HUN-REN TTK
-  <img src="/assets/images/logos/HUN-REN_logo.png" alt="HUN-REN logo">
-</p>
+<div>
 
-<p style="text-align: right;">ERA-NET: Amblyopia, imaging techniques, behavioural methodologies
-  <img src="/assets/images.png" alt="ERA-NET logo">
-</p>
+  <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+    <p>HUN-REN TTK</p>
+    <img src="/assets/images/HUN-REN_logo.png" style="height:50px; width:auto;" alt="HUN-REN logo">
+  </div>
 
-<p style="text-align: right;">Institute of Molecular and Clinical Ophthalmology Basel (IOB): functional ultrasound imaging
-  <img src="/assets/images/logos/IOB_logo.png" alt="IOB logo">
-</p>
+  <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+    <p>ERA-NET NEURON: Amblyopia, imaging techniques, behavioural methodologies</p>
+    <img src="/assets/images/ERA-NET_neuron.png" style="height:50px; width:auto;" alt="ERA-NET logo">
+  </div>
 
-<p style="text-align: right;">German Primate Center (DPZ): past collaboration, functional ultrasound imaging
-  <img src="/assets/images/logos/DPZ_logo.png" alt="DPZ logo">
-</p>
+  <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+    <p>Institute of Molecular and Clinical Ophthalmology Basel (IOB): functional ultrasound imaging</p>
+    <img src="/assets/images/IOB_logo.png" style="height:50px; width:auto;" alt="IOB logo">
+  </div>
 
-<p style="text-align: right;">KULeuven - Alan Urban: cutting-edge functional ultrasound imaging
-  <img src="/assets/images/logos/KU_Leuven_logo.png" alt="KU Leuven logo">
-</p>
+<div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+    <p>German Primate Center (DPZ): past collaboration, functional ultrasound imaging</p>
+    <img src="/assets/images/DPZ_logo.png" style="height:50px; width:auto;" alt="DPZ logo">
+  </div>
 
-CELSA - KULeuven - Wim Vanduffel: validation of biotech tools in primates.
+  <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+    <p>Katholieke Universiteit Leuven (KU Leuven) - Alan Urban: cutting-edge functional ultrasound imaging</p>
+    <img src="/assets/images/KU_Leuven_logo.png" style="height:50px; width:auto;" alt="KU Leuven logo">
+  </div>
 
-SE: Amblyopia, gene therapy.
+  <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+    <p>Central Europe Leuven Strategic Alliance (CELSA) - KULeuven - Wim Vanduffel: validation of biotech tools in primates</p>
+    <img src="/assets/images/CELSA_logo.png" style="height:50px; width:auto;" alt="CELSA logo">
+  </div>
 
-PPKE: Data analytics.
+  <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+    <p>Transylvanian Institute of Neuroscience (TINS): Amblyopia project</p>
+    <img src="/assets/images/TINS_logo.png" style="height:50px; width:auto;" alt="Semmelweis University logo">
+  </div>
 
-Richter Neuropszichiátria Hálózat: feline-primate model translation.
+  <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+    <p>Semmelweis University (SE): Amblyopia, gene therapy</p>
+    <img src="/assets/images/SOTE_logo.png" style="height:50px; width:auto;" alt="Semmelweis University logo">
+  </div>
+
+ <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+    <p>Pázmány Péter Catholic University (PPKE): Data analytics</p>
+    <img src="/assets/images/Pazmany_logo.png" style="height:50px; width:auto;" alt="PPKE logo">
+  </div>
+
+  <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+    <p>Richter Neuropszichiátria Hálózat: feline-primate model translation</p>
+    <img src="/assets/images/Richter_logo.png" style="height:50px; width:auto;" alt="Richter logo">
+  </div>
+
+</div>

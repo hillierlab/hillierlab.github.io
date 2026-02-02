@@ -7,10 +7,11 @@ title: News
 A recently published Nature commentary (December 2025) argues that alternatives to animal research, such as organ-on-a-chip systems or AI models, are not inherently more ethical, as their reliability falls short of rigorously overseen animal studies. The authors emphasize that researchers treat animals with empathy, and the real moral challenge lies in prolonging human suffering through inadequate NAMs that could yield misleading results. This bolsters the ethical foundation of animal research based on the 3Rs principles (Replacement, Reduction, Refinement), as practiced by our research group. The article can be found <a href="https://www.nature.com/articles/d41586-025-03921-9?WT.ec_id=NATURE-20251204&utm_source=nature_etoc&utm_medium=email&utm_campaign=CONR_41586_AWA1_GL_DTEC_054CI_TOC-251204"
    target="_blank"
    rel="noopener noreferrer">here</a>.
-
+<img class="photo-right" src="/assets/images/Nature_2025.png" alt="Dániel Hillier">
+   
 ## Award-winning research in the lab
-*28 Nov, 2025*
-Adrienn Ingrid Vörös received 2nd place at the Scientific Students’ Conference on 28 Nov 2025 for her project titled “A quantitative study of the relationship between motivation and performance.”
+*28 Nov, 2025*  
+Adrienn Ingrid Vörös received 2nd place at the Scientific Students’ Conference on 28 Nov 2025 for her project titled “A quantitative study of the relationship between motivation and performance.
 
 ## New Assay Fixes Critical Flaw in Gene Therapy Screening
 *29 Sept, 2025*
@@ -18,7 +19,8 @@ In a study published in Nature Gene Therapy, our lab has developed a new method 
 The article published in Nature Gene Therapy can be found <a href="https://www.nature.com/articles/s41434-025-00567-0.epdf?sharing_token=JO-JspnumbR5VIeNpUvoDNRgN0jAjWel9jnR3ZoTv0OCbXopM-ytCkLW1gGj99PrBXnPNhPgVyRs577ay1w3DkRLmH07WwLO_g9GqzRBQzK9D4VuuQR0Sc7XdjlOsUOYem5yHVBfsbmLODhLbfebZ_MWqWIFL4WyKTU-aKvBzTk%3D"
    target="_blank"
    rel="noopener noreferrer">here</a>.
-
+   <img class="photo-right" src="/assets/images/Nature_gene_therapy_AI.png" alt="Dániel Hillier">
+      
 ## A diagnostic method for the development of gene therapies
 *21 Aug, 2025*
 In a publication in the leading journal Frontiers in Immunology, our lab has introduced coreTIA, a pioneering open-source diagnostic method designed to accelerate the development of gene therapies. A major challenge in this field is that pre-existing antibodies can neutralize these expensive treatments, but testing for them has been hampered by a lack of standardized, reliable tools. Our coreTIA method solves this by providing the first universally accessible and validated protocol to accurately measure these antibodies in blood samples across multiple species, including humans. By making this tool freely available, we aim to establish a global diagnostic standard, helping to overcome the scientific 'reproducibility crisis' and shorten the path for getting safe and effective therapies from the lab to patients who need them.
@@ -28,8 +30,8 @@ The article published in Frontiers in Immunology can be found <a href="https://w
 
 ## Patient–Researcher Dialogue with László Joszt
 *21 May, 2024*
-László Joszt, Vision Rehabilitation Teacher with lived experience of blindness, was visiting the Hillier Lab, giving the opportunty to share the hopes and  perspectives of both sides according to blindness and restoring vision.
-
+László Joszt, a Vision Rehabilitation Teacher with lived experience of blindness, visited the Hillier Lab and shared his personal story of losing his vision, creating an opportunity to exchange hopes and perspectives on blindness and vision restoration from both sides.
+  
 ## Understanding Brain Dysfunction in Amblyopia Using Large-Scale Multimodal Recordings
 *2 Nov, 2023*
 HUN-REN TTK and TINS invited all interested parties for a series of short talks that reported about the latest results of the Hillier lab.
