@@ -4,69 +4,75 @@ title: Collaborations
 ---
 
 <style>
+  .collab-container {
+    width: 100%; /* ensures full width for alignment */
+  }
   .collab-row {
     display: flex;
     align-items: center;
+    justify-content: space-between; /* pushes logo to far right */
     gap: 16px;
     margin-bottom: 12px;
+  }
+  .collab-row p {
+    margin: 0; /* removes default paragraph margins */
+    flex: 0 1 auto; /* prevents paragraph from expanding */
   }
   .collab-row img {
     height: 50px;
     width: auto;
-    margin-left: auto; /* pushes logo to a right-side column */
+    flex-shrink: 0; /* prevents logo from shrinking */
   }
 </style>
 
-<div>
-
+<div class="collab-container">
   <div class="collab-row">
     <p>HUN-REN TTK</p>
     <img src="/assets/images/logos/HUN-REN_logo.png" alt="HUN-REN logo">
   </div>
-
+  
   <div class="collab-row">
     <p>ERA-NET NEURON: Amblyopia, imaging techniques, behavioural methodologies</p>
     <img src="/assets/images/logos/ERA-NET_neuron.png" alt="ERA-NET NEURON logo">
   </div>
-
+  
   <div class="collab-row">
     <p>Institute of Molecular and Clinical Ophthalmology Basel (IOB): functional ultrasound imaging</p>
     <img src="/assets/images/logos/IOB_logo.png" alt="IOB logo">
   </div>
-
+  
   <div class="collab-row">
     <p>German Primate Center (DPZ): past collaboration, primate models</p>
     <img src="/assets/images/logos/DPZ_logo.png" alt="DPZ logo">
   </div>
-
+  
   <div class="collab-row">
     <p>Katholieke Universiteit Leuven (KU Leuven) - Alan Urban: cutting-edge functional ultrasound imaging</p>
     <img src="/assets/images/logos/KU_Leuven_logo.png" alt="KU Leuven logo">
   </div>
-
+  
   <div class="collab-row">
-    <p>Central Europe Leuven Strategic Alliance (CELSA) - KU Leuven - Wim Vanduffel, cat->primate translation</p>
+    <p>Central Europe Leuven Strategic Alliance (CELSA) - KU Leuven - Wim Vanduffel, cat→primate translation</p>
     <img src="/assets/images/logos/CELSA_logo.png" alt="CELSA logo">
   </div>
-
+  
   <div class="collab-row">
     <p>Transylvanian Institute of Neuroscience (TINS): Amblyopia project</p>
     <img src="/assets/images/logos/TINS_logo.png" alt="TINS logo">
   </div>
-
+  
   <div class="collab-row">
     <p>Semmelweis University (SE): Amblyopia, gene therapy</p>
     <img src="/assets/images/logos/SOTE_logo.png" alt="Semmelweis University logo">
   </div>
-
+  
   <div class="collab-row">
     <p>Pázmány Péter Catholic University (PPKE): Data analytics</p>
     <img src="/assets/images/logos/Pazmany_logo.png" alt="PPKE logo">
   </div>
-
+  
   <div class="collab-row">
     <p>Richter Neuropszichiátria Hálózat: feline-primate model translation</p>
     <img src="/assets/images/logos/Richter_logo.png" alt="Richter logo">
   </div>
-
 </div>
