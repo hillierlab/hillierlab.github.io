@@ -42,7 +42,7 @@ title: Collaborations
   </div>
   
   <div class="collab-row">
-    <p>ERA-NET NEURON: Amblyopia, imaging techniques, behavioural methodologies</p>
+    <p><a href="unscrambly.md">ERA-NET NEURON</a>: Amblyopia, imaging techniques, behavioural methodologies</p>
     <img src="/assets/images/logos/ERA-NET_neuron.png" alt="ERA-NET NEURON logo">
   </div>
   
