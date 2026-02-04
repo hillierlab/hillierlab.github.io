@@ -72,7 +72,18 @@ The unique vision-restoring therapy will soon be tested in Hungarian patients. T
 href="https://qubit.hu/2020/06/08/hamarosan-magyar-betegeken-is-tesztelhetik-az-egyedulallo-latas-visszaallito-terapiat"
 target="_blank"
 rel="noopener noreferrer">here</a>.
-<img class="photo-right" src="/assets/images/publications/Nelidova_Science_2020.jpg" alt="Dániel Hillier"> 
+<img class="photo-right" src="/assets/images/publications/Nelidova_Science_2020.jpg" alt="Dániel Hillier">
+.news-item__media{
+  flex: 0 0 180px;
+  max-width: 180px;
+  margin: 0;
+}
+
+.news-item__media img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 ## Dániel Hillier wins "Lendület" Grant
 *16. June, 2020*
@@ -82,7 +93,23 @@ The Lendület program supports the launch of new research topics and the creatio
 Has been reported on the website of the Hungarian Academy of Sciences (MTA) <a
 href="https://mta.hu/mta_hirei/a-hagyomanyos-okologiai-tudastol-a-molekulak-szerkezetenek-felterkepezeseig-az-mta-lendulet-programjanak-uj-nyertesei-110694"
 target="_blank"
-rel="noopener noreferrer">here</a>.
+Dániel Hillier and his research team have been awarded the Lendület grant by the Hungarian Academy of Sciences. Their project aims to answer the question: How can neurobiology help develop therapies for childhood eye disorders that disrupt the coordination between the two eyes?
+The title of the research project is: “Targeted identification of neural circuit mechanisms involved in binocular signal processing using genetic methods in the cat visual system.”
+The Lendület program supports the launch of new research topics and the creation of independent research groups, promoting both scientific excellence and the retention of talented young researchers in Hungary. Hillier’s work is expected to contribute to the development of vision-restoring therapies and advance research in visual neuroscience.
+Has been reported on the website of the Hungarian Academy of Sciences (MTA) <a
+href="https://mta.hu/mta_hirei/a-hagyomanyos-okologiai-tudastol-a-molekulak-szerkezetenek-felterkepezeseig-az-mta-lendulet-programjanak-uj-nyertesei-110694"
+target="_blank"
+rel="noopener noreferrer">here</a>..news-item__media{
+  flex: 0 0 180px;   
+  max-width: 180px;  /* hogy biztosan ne nőjön nagyobbra */
+  margin: 0;
+}
+
+.news-item__media img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 ## Unraveling how the retina shapes motion detection in the brain
 *22. May, 2017*
