@@ -72,6 +72,7 @@ The unique vision-restoring therapy will soon be tested in Hungarian patients. T
 href="https://qubit.hu/2020/06/08/hamarosan-magyar-betegeken-is-tesztelhetik-az-egyedulallo-latas-visszaallito-terapiat"
 target="_blank"
 rel="noopener noreferrer">here</a>.
+<img class="photo-right" src="/assets/images/publications/Nelidova_Science_2020.jpg" alt="Dániel Hillier"> 
 
 ## Dániel Hillier wins "Lendület" Grant
 *16. June, 2020*
