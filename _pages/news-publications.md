@@ -100,16 +100,7 @@ Has been reported on the website of the Hungarian Academy of Sciences (MTA) <a
 href="https://mta.hu/mta_hirei/a-hagyomanyos-okologiai-tudastol-a-molekulak-szerkezetenek-felterkepezeseig-az-mta-lendulet-programjanak-uj-nyertesei-110694"
 target="_blank"
 rel="noopener noreferrer">here</a>..news-item__media{
-  flex: 0 0 180px;   
-  max-width: 180px;  /* hogy biztosan ne nőjön nagyobbra */
-  margin: 0;
-}
-
-.news-item__media img{
-  width: 100%;
-  height: auto;
-  display: block;
-}
+ 
 
 ## Unraveling how the retina shapes motion detection in the brain
 *22. May, 2017*
