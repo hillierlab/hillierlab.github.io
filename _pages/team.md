@@ -264,7 +264,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 </div>
 
 
- <p>We are looking for more open-minded, passionate, and dedicated members to join our laboratory group. View our open positions <p><a href="[["](https://docs.google.com/document/d/1nMRVx5imCciZWS8TOfMR586OKhuXL4mQGxFcyrTZTqk/edit?tab=t.0)]>here!</p>
+ <p>We are looking for more open-minded, passionate, and dedicated members to join our laboratory group. View our open positions <p><a href="[[(https://drive.google.com/drive/u/0/folders/1wsbbJSXaonZvQbH3t1NIIn3Ize1NDEo6)">here!</p>
 
  
 <h1> Alumni </h1>
