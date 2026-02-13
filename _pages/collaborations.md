@@ -42,11 +42,6 @@ title: Collaborations
   </div>
   
   <div class="collab-row">
-    <p><a href="unscrambly.md">ERA-NET NEURON</a>: Amblyopia, imaging techniques, behavioural methodologies</p>
-    <img src="/assets/images/logos/ERA-NET_neuron.png" alt="ERA-NET NEURON logo">
-  </div>
-  
-  <div class="collab-row">
     <p>Institute of Molecular and Clinical Ophthalmology Basel (IOB): functional ultrasound imaging</p>
     <img src="/assets/images/logos/IOB_logo.png" alt="IOB logo">
   </div>
@@ -85,4 +80,9 @@ title: Collaborations
     <p>Richter Neuropszichiátria Hálózat: feline-primate model translation</p>
     <img src="/assets/images/logos/Richter_logo.png" alt="Richter logo">
   </div>
-</div>
+  
+ <div class="collab-row">
+    <p><a href="unscrambly.md">ERA-NET NEURON</a>: Amblyopia, imaging techniques, behavioural methodologies</p>
+    <img src="/assets/images/logos/ERA-NET_neuron.png" alt="ERA-NET NEURON logo">
+  </div>
+  
