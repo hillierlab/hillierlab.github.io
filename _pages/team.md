@@ -263,6 +263,10 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
   </div>
 </div>
 
+
+ <p>We are looking for more open-minded, passionate, and dedicated members to join our laboratory group. View our open positions here!</p>
+
+ 
 <h1> Alumni </h1>
 
 <div class="member">
