@@ -108,7 +108,7 @@ title: Meet the Team
 <div class="member">
   <img class="photo-right" src="/assets/images/member_photos/Dani2.JPEG" alt="Dániel Hillier">
   <div class="member-text">
-    <h3>Dániel Hillier</h3>
+    <h3>Dániel Hillier, groupleader </h3>
     <p>As the head of the group in vision neuroscience, gene therapy, image processing, microscopy, and machine vision, I lead a multidisciplinary team working to reopen adult brain "windows of plasticity" through viral vector therapies, behavioral studies, and advanced models from mice to primates. What motivates me is the opportunity to contribute to sight restoration and clinical therapies, striving for meaningful progress in helping those with severe neurological and psychiatric conditions.</p>
   </div>
 </div>
