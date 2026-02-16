@@ -148,7 +148,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
 </div>
 
 <div class="member">
-  <img class="photo-left" src="/assets/images/member_photos/Fanni.jpg" alt="Fanni Somogyi">
+  <img class="photo-left" src="/assets/images/member_photos/" alt="Fanni Somogyi">
   <div class="member-text">
     <h3>Fanni Somogyi, PhD student </h3>
     <p>I am working with rodent and large animal models, combining surgical techniques, AAV-based delivery, functional imaging and tissue analysis. I am motivated by designing complex experiments that require careful planning and coordination, as this allows us to address meaningful scientific questions. Outside the lab, I am always up for a good conversation over coffee or a board game night with my husband and friends.</p>
