@@ -210,7 +210,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 <div class="member">
   <img class="photo-right" src="/assets/images/member_photos/Fanni.jpg" alt="Fanni Soós">
   <div class="member-text">
-    <h3>Fanni Soós, BSC </h3>
+    <h3>Fanni Soós, BSc </h3>
     <p>I work as an assistant in the anatomy lab, where I support daily activities and pay close attention to precision and detail. I am proud of maintaining a clean, organized, and cosy lab environment, as I believe it contributes to better learning and work conditions. Outside the lab, I enjoy spending time reading and have a special fondness for cats.</p>
   </div>
 </div>
