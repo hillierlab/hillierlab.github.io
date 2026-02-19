@@ -117,7 +117,7 @@ title: Meet the Team
   <img class="photo-left" src="/assets/images/member_photos/Doma.JPG" alt="Domonkos Horváth">
   <div class="member-text">
     <h3>Domonkos Horváth, postdoc </h3>
-    <p>As a postdoc in the lab, my research centers on chronic imaging experiments in large-brained animals, primarily under anesthesia. In our lab, I plan, organize, and conduct these experiments collaboratively with our team, and advancing our understanding of brain function through precise and systematic application of chronic imaging approaches through a good team effort is what matters the most to me. Outside the lab, I support scouting with my volunteer work and I am keen on hiking with my family and friends.</p>
+    <p>As a postdoc in the group, my research centers on chronic imaging experiments in large-brained animals, primarily under anesthesia. In our lab, I plan, organize, and conduct these experiments collaboratively with our team, and advancing our understanding of brain function through precise and systematic application of chronic imaging approaches through a good team effort is what matters the most to me. Outside the lab, I support scouting with my volunteer work and I am keen on hiking with my family and friends.</p>
   </div>
 </div>
 
@@ -143,7 +143,7 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
   <img class="photo-right" src="/assets/images/member_photos/Abel.jpg" alt="Ábel Petik">
   <div class="member-text">
     <h3>Ábel Petik, PhD student </h3>
-    <p>I'm the main developer and data analyst of the functional brain imaging team. I take pride in the well thought out nature of the software we create. In my free time I cherish dancing and making music.</p>
+    <p>I'm the main developer and data analyst of the functional brain imaging team. I take pride in the well-thought-out nature of the software we create. In my free time I cherish dancing and making music.</p>
   </div>
 </div>
 
@@ -168,8 +168,8 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
 <div class="member">
   <img class="photo-left" src="/assets/images/member_photos/Kinga.JPEG" alt="Sarolt Kinga Gintner">
   <div class="member-text">
-    <h3>Sarolt Kinga Gintner MSc </h3>
-    <p>In the group, I manage the work of the Animal House team, am responsible for the care and welfare of the animals and besides this, I research the visual aspects of higher-order species behavior. I'm particularly interested in decoding subtle animal signals, automating their measurement, and enhancing human-animal interactions to benefit both sides. Outside the lab, I teach experiential science, ride horses regularly, and apply my precision and creativity in a community leadership role.</p>
+    <h3>Sarolt Kinga Gintner, MSc </h3>
+    <p>In the group, I manage the work of the Animal House team, and I am responsible for the care and welfare of the animals. Besides this, I research the visual aspects of higher-order species behavior. I'm particularly interested in decoding subtle animal signals, automating their measurement, and enhancing human-animal interactions to benefit both sides. Outside the lab, I teach experiential science, ride horses regularly, and apply my precision and creativity in a community leadership role.</p>
   </div>
 </div>
 
@@ -227,7 +227,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
   <img class="photo-right" src="/assets/images/member_photos/B.Luca.jpg" alt="Luca Benedek">
   <div class="member-text">
     <h3>Luca Benedek, MSc student </h3>
-    <p>I work as an animal house assistant in the laboratory. I find it important to maintain the animals’ well-being and support the researchers’ work effectively. Outside the lab, I love folk music and I am learning to play the zither and viola.</p>
+    <p>I work as an animal house assistant in the group. I find it important to maintain the animals’ well-being and support the researchers’ work effectively. Outside the lab, I love folk music and I am learning to play the zither and viola.</p>
   </div>
 </div>
 
@@ -271,7 +271,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
   <img class="photo-left" src="/assets/images/member_photos/Mariela.JPG" alt="Mariela Talavera Munoz">
   <div class="member-text">
     <h3>Mariela Talavera Munoz</h3>
-    <p>I am Mariela Talavera, bacherlor student of biomedical engineering in Universidad Autónoma de Madrid. I am interested in medical imaging and prothesis design. I like playing piano and doing sports.</p>
+    <p>I am Mariela Talavera, bachelor student of biomedical engineering in Universidad Autónoma de Madrid. I am interested in medical imaging and prothesis design. I like playing piano and doing sports.</p>
   </div>
 </div>
 
