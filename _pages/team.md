@@ -148,16 +148,6 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
 </div>
 
 <div class="member">
-  <img class="photo-right" src="/assets/images/member_photos/Andris.jpg" alt="András Adolf">
-  <div class="member-text">
-    <h3>András Adolf, PhD student </h3>
-    <p>I work in the behavior team, where I develop and maintain the experiment leader application used to run behavioral experiments.
-I find it particularly important to write clear, reliable Python code that supports reproducible experiments and smooth collaboration within the lab.
-Outside the lab, I enjoy running, playing the guitar, and spending time with friends over board games.</p>
-  </div>
-</div>
-
-<div class="member">
   <img class="photo-left" src="/assets/images/member_photos/Fanni.jpg" alt="Fanni Somogyi">
   <div class="member-text">
     <h3>Fanni Somogyi, PhD student </h3>
@@ -166,10 +156,12 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
 </div>
 
 <div class="member">
-  <img class="photo-right" src="/assets/images/member_photos/Beni.jpg" alt="Bendegúz Fekete">
+  <img class="photo-right" src="/assets/images/member_photos/Andris.jpg" alt="András Adolf">
   <div class="member-text">
-    <h3>Bendegúz Fekete, MSc student </h3>
-    <p>I work on our human EEG project, investigating brain alterations associated with amblyopia using a range of statistical methods. My main research interest is how perception works, with a particular focus on predictive coding.</p>
+    <h3>András Adolf, PhD student </h3>
+    <p>I work in the behavior team, where I develop and maintain the experiment leader application used to run behavioral experiments.
+I find it particularly important to write clear, reliable Python code that supports reproducible experiments and smooth collaboration within the lab.
+Outside the lab, I enjoy running, playing the guitar, and spending time with friends over board games.</p>
   </div>
 </div>
 
@@ -182,10 +174,10 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
 </div>
 
 <div class="member">
-  <img class="photo-right" src="/assets/images/member_photos/Barna2.JPEG" alt="Barna Kovács">
+  <img class="photo-right" src="/assets/images/member_photos/Beni.jpg" alt="Bendegúz Fekete">
   <div class="member-text">
-    <h3>Barna Kovács, MSc student </h3>
-    <p>I mainly work on the development side, so my strengths are in programming areas like data analysis and computational modelling. I enjoy spending my free time in nature, especially when it snows a little, and by playing board games.</p>
+    <h3>Bendegúz Fekete, MSc student </h3>
+    <p>I work on our human EEG project, investigating brain alterations associated with amblyopia using a range of statistical methods. My main research interest is how perception works, with a particular focus on predictive coding.</p>
   </div>
 </div>
 
@@ -194,6 +186,14 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
   <div class="member-text">
     <h3>Petra Molnár, MSc student </h3>
     <p>I work in the laboratory with AAV vectors and neutralizing antibody (NAb) testing. What I find important is continuous protocol improvement and methodological precision, I take pride in analyzing each step to make our processes more efficient and reliable, learning and refining our approaches every day. Outside the lab, I'm passionate about staying active through boxing and horse riding, exploring different cultures through travel, and expressing myself through creative hobbies.</p>
+  </div>
+</div>
+
+<div class="member">
+  <img class="photo-right" src="/assets/images/member_photos/Barna2.JPEG" alt="Barna Kovács">
+  <div class="member-text">
+    <h3>Barna Kovács, MSc student </h3>
+    <p>I mainly work on the development side, so my strengths are in programming areas like data analysis and computational modelling. I enjoy spending my free time in nature, especially when it snows a little, and by playing board games.</p>
   </div>
 </div>
 
