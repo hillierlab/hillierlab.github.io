@@ -148,6 +148,16 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
 </div>
 
 <div class="member">
+  <img class="photo-right" src="/assets/images/member_photos/Andris.jpg" alt="András Adolf">
+  <div class="member-text">
+    <h3>András Adolf, PhD student </h3>
+    <p>I work in the behavior team, where I develop and maintain the experiment leader application used to run behavioral experiments.
+I find it particularly important to write clear, reliable Python code that supports reproducible experiments and smooth collaboration within the lab.
+Outside the lab, I enjoy running, playing the guitar, and spending time with friends over board games.</p>
+  </div>
+</div>
+
+<div class="member">
   <img class="photo-left" src="/assets/images/member_photos/Fanni.jpg" alt="Fanni Somogyi">
   <div class="member-text">
     <h3>Fanni Somogyi, PhD student </h3>
@@ -188,16 +198,6 @@ Outside the lab, I find balance in painting, dancing, and spending time with fri
 </div>
 
 <div class="member">
-  <img class="photo-right" src="/assets/images/member_photos/Andris.jpg" alt="András Adolf">
-  <div class="member-text">
-    <h3>András Adolf, PhD student </h3>
-    <p>I work in the behavior team, where I develop and maintain the experiment leader application used to run behavioral experiments.
-I find it particularly important to write clear, reliable Python code that supports reproducible experiments and smooth collaboration within the lab.
-Outside the lab, I enjoy running, playing the guitar, and spending time with friends over board games.</p>
-  </div>
-</div>
-
-<div class="member">
   <img class="photo-left" src="/assets/images/member_photos/K.Petra2.jpeg" alt="Petra Kornidesz">
   <div class="member-text">
     <h3>Petra Kornidesz, MSc student </h3>
@@ -234,7 +234,7 @@ Outside the lab, I am passionate about sports, as it helps me recharge, and stay
 <div class="member">
   <img class="photo-left" src="/assets/images/member_photos/Hanna.jpg" alt="Hanna Orvos-Nagy">
   <div class="member-text">
-    <h3>Hanna Orvos-Nagy, MSC student</h3>
+    <h3>Hanna Orvos-Nagy, MSc student</h3>
     <p>My role is to assist the research group by taking care of the animals in the Animal House and the mice enclosure, monitoring their health, administering medication, and providing them with a comfortable and safe environment. In my spare time I enjoy creative activities, such as drawing, sewing and crafting, and I really love playing board games with my friends, sometimes for hours on end.</p>
   </div>
 </div>
