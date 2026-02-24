@@ -28,6 +28,10 @@ The article published in Frontiers in Immunology can be found <a href="https://w
    target="_blank"
    rel="noopener noreferrer">here</a>.
 
+## Research Camp at TTK with the Contribution of the Lab’s Human Research Team
+*14-18 July, 2025*
+With the support of Richter Gedeon Nyrt., the Természettudományi Kutatóközpont organized a summer camp for highly talented high school students interested in the natural sciences. The Hillier laboratory hosted two students, who learned about the theoretical and practical foundations of the group’s human experiments and also participated as study subjects. By contributing to the interpretation and processing of the measurements performed on them, they gained a comprehensive understanding of this aspect of the research group’s work.
+
 ## Patient–Researcher Dialogue with László Joszt
 *21 May, 2024*
 László Joszt, a Vision Rehabilitation Teacher with lived experience of blindness, visited the Hillier Lab and shared his personal story of losing his vision, creating an opportunity to exchange hopes and perspectives on blindness and vision restoration from both sides.
