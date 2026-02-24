@@ -78,17 +78,6 @@ href="https://qubit.hu/2020/06/08/hamarosan-magyar-betegeken-is-tesztelhetik-az-
 target="_blank"
 rel="noopener noreferrer">here</a>.
 <img class="photo-right" src="/assets/images/publications/Nelidova_Science_2020.jpg" alt="Dániel Hillier">
-.news-item__media{
-  flex: 0 0 180px;
-  max-width: 180px;
-  margin: 0;
-}
-
-.news-item__media img{
-  width: 100%;
-  height: auto;
-  display: block;
-}
 
 ## Dániel Hillier wins "Lendület" Grant
 *16. June, 2020*
