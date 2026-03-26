@@ -198,12 +198,11 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
 </div>
 
 <div class="member">
-  <img class="photo-left" src="/assets/images/member_photos/K.Petra2.jpeg" alt="Petra Kornidesz">
+  <img class="photo-left" src="/assets/images/member_photos/CzHella.jpg" alt="Hella Czigány">
   <div class="member-text">
-    <h3>Petra Kornidesz, MSc student </h3>
-    <p>I'm part of the behavioral team.
- What matters most to me in my work is creativity and precision, especially in how questions are framed and studied.
-Outside the lab, I am passionate about sports, as it helps me recharge, and stay balanced.</p>
+    <h3>Hella Czigány, MSc student </h3>
+    <p>I work with rodent animals, performing surgeries and managing tissue processing in the anatomy laboratory. I find great satisfaction in solving problems to expand my knowledge and ensuring that every experimental step is handled with high precision. Outside the lab, I am passionate about reading, playing board games, DIY projects, and volunteering as a shelter dog walker.
+</p>
   </div>
 </div>
 
