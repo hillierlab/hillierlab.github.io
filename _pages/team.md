@@ -182,14 +182,6 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
 </div>
 
 <div class="member">
-  <img class="photo-left" src="/assets/images/member_photos/MPetra.jpeg" alt="Petra Molnár">
-  <div class="member-text">
-    <h3>Petra Molnár, MSc student </h3>
-    <p>I work in the laboratory with AAV vectors and neutralizing antibody (NAb) testing. What I find important is continuous protocol improvement and methodological precision, I take pride in analyzing each step to make our processes more efficient and reliable, learning and refining our approaches every day. Outside the lab, I'm passionate about staying active through boxing and horse riding, exploring different cultures through travel, and expressing myself through creative hobbies.</p>
-  </div>
-</div>
-
-<div class="member">
   <img class="photo-right" src="/assets/images/member_photos/Barna2.JPEG" alt="Barna Kovács">
   <div class="member-text">
     <h3>Barna Kovács, MSc student </h3>
@@ -274,3 +266,10 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
   </div>
 </div>
 
+<div class="member">
+  <img class="photo-left" src="/assets/images/member_photos/MPetra.jpeg" alt="Petra Molnár">
+  <div class="member-text">
+    <h3>Petra Molnár, MSc student </h3>
+    <p>I work in the laboratory with AAV vectors and neutralizing antibody (NAb) testing. What I find important is continuous protocol improvement and methodological precision, I take pride in analyzing each step to make our processes more efficient and reliable, learning and refining our approaches every day. Outside the lab, I'm passionate about staying active through boxing and horse riding, exploring different cultures through travel, and expressing myself through creative hobbies.</p>
+  </div>
+</div>
