@@ -182,9 +182,9 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
 </div>
 
 <div class="member">
-  <img class="photo-left" src="/assets/images/member_photos/MPetra.jpeg" alt="Petra Molnár">
+  <img class="photo-left" src="/assets/images/member_photos/Ivett.jpg" alt="Ivett Mercédesz Istenes-Németh">
   <div class="member-text">
-    <h3>Istenes-Németh Ivett Mercédesz, MSc student </h3>
+    <h3>Ivett Mercédesz Istenes-Németh, MSc student </h3>
     <p>I work as a behavioral assistant in a research group, where my primary responsibility is training cats. I believe the most important part of my job is collecting as much accurate behavioral data as possible. Outside the lab, I enjoy creative activities such as digital painting, crocheting, and jewelry making, as well as spending time outdoors gardening, hiking, and collecting insects.<p>
   </div>
 </div>
