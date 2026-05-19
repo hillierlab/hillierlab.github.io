@@ -265,7 +265,7 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
 <div class="member">
   <img class="photo-left" src="/assets/images/member_photos/SVirag.jpg" alt="Gabriella Trieb">
   <div class="member-text">
-    <h3>Virág Sári MSc </h3>
+    <h3>Virág Sári BSc </h3>
     <p>I work in the AAV vector production part of the research group. I find it important to continuously develop my knowledge and set myself challenges to solve. Outside the lab, I reacharge by baking and spending time with my friends.
 </p>
   </div>
