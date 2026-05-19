@@ -262,6 +262,15 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
   </div>
 </div>
 
+<div class="member">
+  <img class="photo-left" src="/assets/images/member_photos/SVirag.jpg" alt="Gabriella Trieb">
+  <div class="member-text">
+    <h3>Virág Sári MSc </h3>
+    <p>I work in the AAV vector production part of the research group. I find it important to continuously develop my knowledge and set myself challenges to solve. Outside the lab, I reacharge by baking and spending time with my friends.
+</p>
+  </div>
+</div>
+
 <p>We are looking for more open-minded, passionate, and dedicated members to join our laboratory group. View our open positions <a href="https://drive.google.com/drive/u/0/folders/1wsbbJSXaonZvQbH3t1NIIn3Ize1NDEo6" target="_blank">here!</a></p>   
 
 <h1> Alumni </h1>
@@ -275,7 +284,7 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
 </div>
 
 <div class="member">
-  <img class="photo-left" src="/assets/images/member_photos/MPetra.jpeg" alt="Petra Molnár">
+  <img class="photo-right" src="/assets/images/member_photos/MPetra.jpeg" alt="Petra Molnár">
   <div class="member-text">
     <h3>Petra Molnár, MSc student </h3>
     <p>I work in the laboratory with AAV vectors and neutralizing antibody (NAb) testing. What I find important is continuous protocol improvement and methodological precision, I take pride in analyzing each step to make our processes more efficient and reliable, learning and refining our approaches every day. Outside the lab, I'm passionate about staying active through boxing and horse riding, exploring different cultures through travel, and expressing myself through creative hobbies.</p>
