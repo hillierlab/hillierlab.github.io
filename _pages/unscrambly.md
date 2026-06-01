@@ -1,6 +1,6 @@
 ---
 title: Unscrambly
-layout: single
+layout: page
 permalink: /unscrambly/
 ---
 
