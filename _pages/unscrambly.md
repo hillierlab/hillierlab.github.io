@@ -1,6 +1,7 @@
 ---
-layout: page
 title: Unscrambly
+layout: single
+permalink: /unscrambly/
 ---
 
 
