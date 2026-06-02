@@ -39,7 +39,7 @@ D. A. Dumitru, E. B. Ceuta, V. V. Moca, R. C. Mureșan and M. Dînșoreanu,
 "Extraction of Functional Brain Networks from EEG Signals in the Context of Visual Perception,"
 2022 IEEE International Conference on Automation, Quality and Testing, Robotics (AQTR),
 Cluj-Napoca, Romania, 2022, pp. 1-6,
-<a href="https://doi.org/10.1109/AQTR55203.2022.9801941">doi:10.1109/AQTR55203.2022.9801941</a>
+<a href="https://doi.org/10.1109/AQTR55203.2022.9801941">https://doi:10.1109/AQTR55203.2022.9801941</a>
 </p>
 
 <p>
