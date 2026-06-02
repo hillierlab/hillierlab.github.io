@@ -12,15 +12,20 @@ permalink: /unscrambly/
 <h2>Partners</h2>
 
   <div class="collab-row">
-  <p>HUN-REN TTK</p>
   <img src="/assets/images/logos/HUN-REN_logo.png" alt="HUN-REN logo">
 </div>
 
 <div class="collab-row">
-  <p>TINS</p>
   <img src="/assets/images/logos/TINS_logo.png" alt="TINS logo">
 </div>
-  
+
+<div class="collab-row">
+  <img src="/assets/images/logos/KU_Leuven_logo.png" alt="KU Leuven logo">
+</div>  
+
+<div class="collab-row">
+  <img src="/assets/images/logos/SOTE_logo.png" alt="SE logo">
+</div>  
 </style> <img src="/assets/images/logos/HUN-REN_logo.png" alt="HUN-REN logo"> <img src="/assets/images/logos/TINS_logo.png" alt="TINS logo"> <img src="/assets/images/logos/KU_Leuven_logo.png" alt="KU Leuven logo"> <img src="/assets/images/logos/SOTE_logo.png" alt="Semmelweis University logo">
  
  <h2>Key project activities</h2>
