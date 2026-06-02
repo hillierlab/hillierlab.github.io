@@ -3,7 +3,43 @@ title: Unscrambly
 layout: page
 permalink: /unscrambly/
 ---
+<style>
+  .collab-container{
+    width: 100%;
+  }
 
+  .collab-row{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  /* Let the text column expand so the logo can be pushed to the far right */
+  .collab-row p{
+    margin: 0;
+    flex: 1 1 auto;
+    min-width: 0; /* allows wrapping instead of pushing the logo off */
+  }
+
+  /* Push logo to the far right and keep its right edge aligned */
+  .collab-row img{
+    height: 50px;
+    width: auto;
+    max-width: 240px; /* optional: prevents huge logos on small screens */
+    margin-left: auto;
+    flex: 0 0 auto;
+    display: block;
+    object-fit: contain;
+  }
+</style>
+
+<div class="collab-container">
+  <div class="collab-row">
+    <p>HUN-REN TTK</p>
+    <img src="/assets/images/logos/HUN-REN_logo.png" alt="HUN-REN logo">
+  </div>
 
  <p>UnscrAMBLY is an international research collaboration between labs from Hungary, Romania, Belgium and Norway. UnscrAMBLY stands for: "Understanding brain circuit dysfunction in amblyopia using large-scale multimodal recordings in a new visuomotor task applied to animal models and patients". The project is funded by the ERA-NET NEURON program.<p>
    
