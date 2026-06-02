@@ -36,9 +36,9 @@ permalink: /unscrambly/
 
 <p>D. A. Dumitru, E. B. Ceuta, V. V. Moca, R. C. Mureșan and M. Dînșoreanu, "Extraction of Functional Brain Networks from EEG Signals in the Context of Visual Perception," 2022 IEEE International Conference on Automation, Quality and Testing, Robotics (AQTR), Cluj-Napoca, Romania, 2022, pp. 1-6, doi: 10.1109/AQTR55203.2022.9801941<p>
 
- <p> H, Ichim A-M, Moca VV and Mure ̧san RC, "Time-Frequency Representations of Brain Oscillations: Which One Is Better?" Front. Neuroinform. 16:871904. 2022, Volume 16, https://doi.org/10.3389/fninf.2022.871904<p>
+ <p> H, Ichim A-M, Moca VV and Mure ̧san RC, "Time-Frequency Representations of Brain Oscillations: Which One Is Better?" Front. Neuroinform. 16:871904. 2022, Volume 16,<a href="https://doi.org/10.3389/fninf.2022.871904"<p>
 
- <p>George F Grosu, Alexander V Hopp, Vasile V Moca, Harald Bârzan, Andrei Ciuparu, Maria Ercsey-Ravasz, Mathias Winkel, Helmut Linde, Raul C Mureșan, The fractal brain: scale-invariance in structure and dynamics, Cerebral Cortex, 2022;, bhac363, https://doi.org/10.1093/cercor/bhac363 <p>
+ <p>George F Grosu, Alexander V Hopp, Vasile V Moca, Harald Bârzan, Andrei Ciuparu, Maria Ercsey-Ravasz, Mathias Winkel, Helmut Linde, Raul C Mureșan, The fractal brain: scale-invariance in structure and dynamics, Cerebral Cortex, 2022;, bhac363,    href="https://doi.org/10.1093/cercor/bhac363" <p>
 
  
 
