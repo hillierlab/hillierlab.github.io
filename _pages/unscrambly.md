@@ -11,8 +11,12 @@ permalink: /unscrambly/
 
 <h2>Key project activities</h2>
 
-<p>02-04.11.2023 TINS visiting TTK, building up the bike-tunel setup in the EEG lab (TTK)<p>
-<p>06.12.2023 TTK visiting the Semmelweis University, Optamology, presenting the project with a shortfilm,recruiting clinicians<p>
-<p>24-26.01.2024 MITT Conference, Pécs, presenting and networking, come in contact with Dr. Gabor Jando (specialist at binacularity, University of Pecs) and his research group. Collaborate with the Jando-group, sharing the vision application, Euvision, developed by them.<p>
-<p>24.04.2022 Radio report of our ERA-NET Neuron project (HU) - Interview with Daniel Hillier about our research project on amblyopia.
-  <a href="(https://hu.cba.media/553518)">CIVIL RADIO</a>
+<p><em>02-04.11.2023</em> TINS visiting TTK, building up the bike-tunnel setup in the EEG lab (TTK)</p>
+
+<p><em>06.12.2023</em> TTK visiting the Semmelweis University, Ophthalmology, presenting the project with a short film, recruiting clinicians</p>
+
+<p><em>24-26.01.2024</em> MITT Conference, Pécs, presenting and networking, coming into contact with Dr. Gabor Jandó (University of Pécs) and his research group. Collaborating with the Jandó group and sharing the Euvision vision application developed by them.</p>
+
+<p><em>24.04.2022</em> Radio report of our ERA-NET Neuron project (HU) – Interview with Daniel Hillier about our research project on amblyopia.
+  <a href="https://hu.cba.media/553518">CIVIL RADIO</a>
+</p>
