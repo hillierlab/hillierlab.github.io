@@ -10,36 +10,17 @@ permalink: /unscrambly/
 <p>Amblyopia (also known as “lazy eye”) is one of the most studied neurodevelopmental vision disorders. Amblyopia must be diagnosed early and treated promptly because current treatments cannot help recovering lost vision beyond the age of 8 years. Even treated amblyopic patients often have permanently decreased performance in everyday tasks including reading, driving or walking. By 2040 the vision of 200 million patients will be compromised by amblyopia motivating us to develop a new, efficient and widely accessible test for diagnosis and treatment monitoring. Our study aims to exploit the capacity of the brain to predict expected changes in the visual scene, especially those caused by our own motion. Subjects will pedal on a home-trainer bike in a virtual reality corridor while brain activity, eye- and limb motion is recorded. We briefly halt the visual motion at small regions of the scene and analyze brain activity, eye- and limb-motion data. Using machine learning we determine differences between healthy and amblyopic subjects. In humans we use noninvasive recording that captures brain surface activity. Magnetic resonance imaging could also record deep brain activity but requires a fixed body and head for prolonged times thus is not applicable to our study. To collect high-resolution data also from deep regions of the brain we use cats and mice as amblyopia models. Visual function of the cat is very similar to humans. We use functional ultrasound imaging in behaving cats to link activity of deep brain areas to amblyopia. Genetic tools available in mice allow us to test the functional role of brain regions involved in amblyopia in even more detail. This combined method will help us to provide a very robust network view of the origins of amblyopia and serve as a first step to set new and better directions for therapy. Our new method and the expected results may generalize to other neurodevelopmental disorders providing a widely applicable tool for clinical diagnosis and basic research.<p>
 
 <h2>Partners</h2>
-<style>
-  .collab-container{
-    width: 100%;
-  }
 
-  .collab-row{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 12px;
-    width: 100%;
-  }
+  <div class="collab-row">
+  <p>HUN-REN TTK</p>
+  <img src="/assets/images/logos/HUN-REN_logo.png" alt="HUN-REN logo">
+</div>
 
-  /* Let the text column expand so the logo can be pushed to the far right */
-  .collab-row p{
-    margin: 0;
-    flex: 1 1 auto;
-    min-width: 0; /* allows wrapping instead of pushing the logo off */
-  }
-
-  /* Push logo to the far right and keep its right edge aligned */
-  .collab-row img{
-    height: 50px;
-    width: auto;
-    max-width: 240px; /* optional: prevents huge logos on small screens */
-    margin-left: auto;
-    flex: 0 0 auto;
-    display: block;
-    object-fit: contain;
-  }
+<div class="collab-row">
+  <p>TINS</p>
+  <img src="/assets/images/logos/TINS_logo.png" alt="TINS logo">
+</div>
+  
 </style> <img src="/assets/images/logos/HUN-REN_logo.png" alt="HUN-REN logo"> <img src="/assets/images/logos/TINS_logo.png" alt="TINS logo"> <img src="/assets/images/logos/KU_Leuven_logo.png" alt="KU Leuven logo"> <img src="/assets/images/logos/SOTE_logo.png" alt="Semmelweis University logo">
  
  <h2>Key project activities</h2>
