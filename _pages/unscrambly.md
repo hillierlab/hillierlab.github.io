@@ -27,4 +27,8 @@ Publishing:
 
 Are cortical columns ubiquitous? High resolution identification of functional domains in cat visual cortex using 3D functional ultrasound imaging Rapid retinotopy mapping using functional ultrasound imaging of deep visual cortex in cats Optogenetic stimulation monitored with functional imaging in large brains<p>02-04.11.2023<p>
 <p>TINS visiting TTK, building up the bike-tunel setup in the EEG lab (TTK)<p>
- 
+
+24.04.2022
+
+Radio report of our ERA-NET Neuron project (HU) - Interview with Daniel Hillier about our research project on amblyopia.
+  <a href="(https://hu.cba.media/553518)">CIVIL RADIO</a>
