@@ -13,7 +13,7 @@ permalink: /unscrambly/
 }
 
 .collab-row img {
-    height: 60px;
+    height: 5px;
     width: auto;
 }
 
