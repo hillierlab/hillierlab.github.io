@@ -30,7 +30,7 @@ permalink: /unscrambly/
 <a href="https://semmelweis.hu/szemeszet/en/" target="_blank">
   SOTE, Budapest, Hungary
 </a>
-</div> 
+
  <h2>Key project activities</h2>
 
 <p><em>24.04.2022</em> Radio report of our ERA-NET Neuron project (HU) – Interview with Daniel Hillier about our research project on amblyopia.
