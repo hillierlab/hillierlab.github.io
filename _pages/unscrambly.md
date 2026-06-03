@@ -30,6 +30,9 @@ permalink: /unscrambly/
 <a href="https://semmelweis.hu/szemeszet/en/" target="_blank">
   SOTE, Budapest, Hungary
 </a>
+
+<br><br>
+
 <a href="https://www.uio.no/english/" target="_blank">
   University of Oslo, Oslo, Norway
 </a>
