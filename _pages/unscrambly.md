@@ -30,8 +30,11 @@ permalink: /unscrambly/
 <a href="https://semmelweis.hu/szemeszet/en/" target="_blank">
   SOTE, Budapest, Hungary
 </a>
+<a href="https://www.uio.no/english/" target="_blank">
+  University of Oslo, Oslo, Norway
+</a>
 
- <h2>Key project activities</h2>
+<h2>Key project activities</h2>
 
 <p><em>24.04.2022</em> Radio report of our ERA-NET Neuron project (HU) – Interview with Daniel Hillier about our research project on amblyopia.
   <a href="https://hu.cba.media/553518">CIVIL RADIO</a>
