@@ -10,15 +10,26 @@ permalink: /unscrambly/
 
 <h2>Partners</h2>
 <a href="https://www.ttk.hun-ren.hu" target="_blank">
-  HUN-REN TTK  Budapest, Hungary  <p>   
- <a href="https://https://tins.ro" target="_blank">
-TINS, Cluj-Napoca, Romania <p>
+  HUN-REN TTK, Budapest, Hungary
+</a>
+
+<br><br>
+
+<a href="https://tins.ro" target="_blank">
+  TINS, Cluj-Napoca, Romania
+</a>
+
+<br><br>
+
 <a href="https://www.kuleuven.be/kuleuven/" target="_blank">
-  KU Leuven, Leuven, Belgium <p>
-  <a href="https://semmelweis.hu/szemeszet/en/" target="_blank">
-  SOTE, Budapest, Hungary  <p>   
+  KU Leuven, Leuven, Belgium
+</a>
 
+<br><br>
 
+<a href="https://semmelweis.hu/szemeszet/en/" target="_blank">
+  SOTE, Budapest, Hungary
+</a>
 </div> 
  <h2>Key project activities</h2>
 
