@@ -4,6 +4,18 @@ layout: page
 permalink: /unscrambly/
 ---
 
+.collab-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.collab-row img {
+    height: 60px;
+    width: auto;
+}
 
  <p>UnscrAMBLY is an international research collaboration between labs from Hungary, Romania, Belgium and Norway. UnscrAMBLY stands for: "Understanding brain circuit dysfunction in amblyopia using large-scale multimodal recordings in a new visuomotor task applied to animal models and patients". The project is funded by the ERA-NET NEURON program.<p>
    
