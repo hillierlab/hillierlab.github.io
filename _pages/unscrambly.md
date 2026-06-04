@@ -49,6 +49,7 @@ permalink: /unscrambly/
 
 <p><em>24-26.01.2024</em> MITT Conference, Pécs, presenting and networking, coming into contact with Dr. Gabor Jandó (University of Pécs) and his research group. Collaborating with the Jandó group and sharing the Euvision vision application developed by them.</p>
 
+<img class="photo-right" src="/assets/images/ERA-NET.png" alt="Dániel Hillier">
 <h2>Publications</h2>
 
 <p>
