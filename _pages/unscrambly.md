@@ -53,7 +53,12 @@ permalink: /unscrambly/
 <h2>Publications</h2>
 
 <p>
-D. A. Dumitru, E. B. Ceuta, V. V. Moca, R. C. Mureșan and M. Dînșoreanu,
+<p>Domonkos Horváth1,2, Klaudia Csikós1,3, Ábel Petik1,2, Botond Roska4, Daniel Hillier1,2 "An optimized anesthesia protocol for longitudinally reproducible functional ultrasound imaging in the cat visual cortex"
+ <a href="(https://drive.google.com/file/d/1Y63Xq8yC4zFpZCzHXjbubE4YuHSzCnVj/view)" >Publication</a>
+<p>
+
+<p>
+ D. A. Dumitru, E. B. Ceuta, V. V. Moca, R. C. Mureșan and M. Dînșoreanu,
 "Extraction of Functional Brain Networks from EEG Signals in the Context of Visual Perception,"
 2022 IEEE International Conference on Automation, Quality and Testing, Robotics (AQTR),
 Cluj-Napoca, Romania, 2022, pp. 1-6,
