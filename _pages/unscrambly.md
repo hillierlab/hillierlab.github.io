@@ -53,7 +53,7 @@ permalink: /unscrambly/
 <h2>Publications</h2>
 
 <p>
-<p>Domonkos Horváth1,2, Klaudia Csikós1,3, Ábel Petik1,2, Botond Roska4, Daniel Hillier1,2 "An optimized anesthesia protocol for longitudinally reproducible functional ultrasound imaging in the cat visual cortex", 2026
+<p>Domonkos Horváth, Klaudia Csikós, Ábel Petik, Botond Roska, Daniel Hillier "An optimized anesthesia protocol for longitudinally reproducible functional ultrasound imaging in the cat visual cortex", 2026
  <a href="https://drive.google.com/file/d/1Y63Xq8yC4zFpZCzHXjbubE4YuHSzCnVj/view">manuscript</a>
 <p>
 
