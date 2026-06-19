@@ -2,7 +2,8 @@
 layout: page
 title: News
 ---
-## Publications: <a href="https://scholar.google.com/citations?user=OG3XeMYAAAAJ&hl=hu&oi=ao" rel="noopener noreferrer">
+## Publications:
+<a href="https://scholar.google.com/citations?user=OG3XeMYAAAAJ&hl=hu&oi=ao" rel="noopener noreferrer">
  Google Scholar
  </a>
 
