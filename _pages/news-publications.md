@@ -7,7 +7,7 @@ title: News
  Google Scholar
  </a>
 
-## Published in Frontiers in Immunology: CoreTIA, a modular, statistically robust transduction inhibition assay for AAV neutralization
+## Frontiers in Immunology: CoreTIA, a modular, statistically robust transduction inhibition assay for AAV neutralization
 *20 Aug, 2025*
 This publication presents coreTIA, a key research outcome: an open-access framework that combines a standardized assay protocol with a statistically robust analysis pipeline for the accurate and reproducible measurement of neutralizing antibodies in AAV gene therapy. The article can be found <a href="https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1623848/full)"
    target="_blank"
