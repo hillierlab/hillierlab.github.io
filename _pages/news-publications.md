@@ -8,7 +8,7 @@ title: News
 
 ## Published in Frontiers in Immunology: CoreTIA, a modular, statistically robust transduction inhibition assay for AAV neutralization
 *20 Aug, 2025*
-A recently published in Frontiers in Immunology (August 2025) argues that alternatives to animal research, such as organ-on-a-chip systems or AI models, are not inherently more ethical, as their reliability falls short of rigorously overseen animal studies. The authors emphasize that researchers treat animals with empathy, and the real moral challenge lies in prolonging human suffering through inadequate NAMs that could yield misleading results. This bolsters the ethical foundation of animal research based on the 3Rs principles (Replacement, Reduction, Refinement), as practiced by our research group. The article can be found <a href="https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1623848/full)"
+This publication presents coreTIA, a key research outcome: an open-access framework that combines a standardized assay protocol with a statistically robust analysis pipeline for the accurate and reproducible measurement of neutralizing antibodies in AAV gene therapy. The article can be found <a href="https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1623848/full)"
    target="_blank"
    rel="noopener noreferrer">here</a>.
 <img class="photo-right" src="/assets/images/Nature_2025.png" alt="Dániel Hillier">
