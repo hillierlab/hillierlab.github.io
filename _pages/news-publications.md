@@ -11,7 +11,7 @@ title: News
 This publication presents coreTIA, a key research outcome: an open-access framework that combines a standardized assay protocol with a statistically robust analysis pipeline for the accurate and reproducible measurement of neutralizing antibodies in AAV gene therapy. The article can be found <a href="https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1623848/full)"
    target="_blank"
    rel="noopener noreferrer">here</a>.
-<img class="photo-right" src="/assets/images/Nature_2025.png" alt="Dániel Hillier">
+<img class="photo-right" src="/assets/images/.png" alt="Dániel Hillier">
    
 
 ## Nature Publication on Animal Research Ethics
