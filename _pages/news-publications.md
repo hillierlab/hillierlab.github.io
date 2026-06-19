@@ -6,6 +6,14 @@ title: News
   Search on Google Scholar
 </a>
 
+## Published in Frontiers in Immunology: CoreTIA, a modular, statistically robust transduction inhibition assay for AAV neutralization
+*20 Aug, 2025*
+A recently published in Frontiers in Immunology (August 2025) argues that alternatives to animal research, such as organ-on-a-chip systems or AI models, are not inherently more ethical, as their reliability falls short of rigorously overseen animal studies. The authors emphasize that researchers treat animals with empathy, and the real moral challenge lies in prolonging human suffering through inadequate NAMs that could yield misleading results. This bolsters the ethical foundation of animal research based on the 3Rs principles (Replacement, Reduction, Refinement), as practiced by our research group. The article can be found <a href="(https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1623848/full)"
+   target="_blank"
+   rel="noopener noreferrer">here</a>.
+<img class="photo-right" src="/assets/images/Nature_2025.png" alt="Dániel Hillier">
+   
+
 ## Nature Publication on Animal Research Ethics
 *2 Dec, 2025*
 A recently published Nature commentary (December 2025) argues that alternatives to animal research, such as organ-on-a-chip systems or AI models, are not inherently more ethical, as their reliability falls short of rigorously overseen animal studies. The authors emphasize that researchers treat animals with empathy, and the real moral challenge lies in prolonging human suffering through inadequate NAMs that could yield misleading results. This bolsters the ethical foundation of animal research based on the 3Rs principles (Replacement, Reduction, Refinement), as practiced by our research group. The article can be found <a href="https://www.nature.com/articles/d41586-025-03921-9?WT.ec_id=NATURE-20251204&utm_source=nature_etoc&utm_medium=email&utm_campaign=CONR_41586_AWA1_GL_DTEC_054CI_TOC-251204"
