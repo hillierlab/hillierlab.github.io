@@ -3,9 +3,7 @@ layout: page
 title: News
 ---
 ## Publications:
-<a href="https://scholar.google.com/citations?user=OG3XeMYAAAAJ&hl=hu&oi=ao" target="_blank" rel="noopener noreferrer">
- Google Scholar
- </a>
+<a href="https://scholar.google.com/citations?user=OG3XeMYAAAAJ&hl=hu&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar </a>
 
 ## Frontiers in Immunology: CoreTIA, a modular, statistically robust transduction inhibition assay for AAV neutralization
 *20 Aug, 2025*
