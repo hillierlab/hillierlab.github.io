@@ -190,10 +190,10 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
 </div>
 
 <div class="member">
-  <img class="photo-right" src="/assets/images/member_photos/Barna2.JPEG" alt="Barna Kovács">
+  <img class="photo-right" src="/assets/images/member_photos/Virag.JPG" alt="Virág György">
   <div class="member-text">
-    <h3>Barna Kovács, MSc student </h3>
-    <p>I mainly work on the development side, so my strengths are in programming areas like data analysis and computational modelling. I enjoy spending my free time in nature, especially when it snows a little, and by playing board games.</p>
+    <h3>Virág György, MSc student </h3>
+    <p>I work in the anatomy laboratory, where I focus on tissue sample processing, histological preparation, and experimental data analysis. I am continuously developing myself and learning new techniques, including rodent experimental methods. Beyond the lab, dancing plays an important role in my life - particularly folk dance, belly dance and West Coast Swing. </p>
   </div>
 </div>
 
@@ -203,22 +203,6 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
     <h3>Hella Czigány, MSc student </h3>
     <p>I work with rodent animals, performing surgeries and managing tissue processing in the anatomy laboratory. I find great satisfaction in solving problems to expand my knowledge and ensuring that every experimental step is handled with high precision. Outside the lab, I am passionate about reading, playing board games, DIY projects, and volunteering as a shelter dog walker.
 </p>
-  </div>
-</div>
-
-<div class="member">
-  <img class="photo-right" src="/assets/images/member_photos/Fanni.jpg" alt="Fanni Soós">
-  <div class="member-text">
-    <h3>Fanni Soós, BSc </h3>
-    <p>I work as an assistant in the anatomy lab, where I support daily activities and pay close attention to precision and detail. I am proud of maintaining a clean, organized, and cosy lab environment, as I believe it contributes to better learning and work conditions. Outside the lab, I enjoy spending time reading and have a special fondness for cats.</p>
-  </div>
-</div>
-
-<div class="member">
-  <img class="photo-left" src="/assets/images/member_photos/Virag.JPG" alt="Virág György">
-  <div class="member-text">
-    <h3>Virág György, MSc </h3>
-    <p>I work in the anatomy laboratory, where I focus on tissue sample processing, histological preparation, and experimental data analysis. I am continuously developing myself and learning new techniques, including rodent experimental methods. Beyond the lab, dancing plays an important role in my life - particularly folk dance, belly dance and West Coast Swing.</p>
   </div>
 </div>
 
@@ -288,5 +272,21 @@ Outside the lab, I enjoy running, playing the guitar, and spending time with fri
   <div class="member-text">
     <h3>Petra Molnár, MSc student </h3>
     <p>I work in the laboratory with AAV vectors and neutralizing antibody (NAb) testing. What I find important is continuous protocol improvement and methodological precision, I take pride in analyzing each step to make our processes more efficient and reliable, learning and refining our approaches every day. Outside the lab, I'm passionate about staying active through boxing and horse riding, exploring different cultures through travel, and expressing myself through creative hobbies.</p>
+  </div>
+</div>
+
+<div class="member">
+  <img class="photo-right" src="/assets/images/member_photos/Barna2.JPEG" alt="Barna Kovács">
+  <div class="member-text">
+    <h3>Barna Kovács, MSc student </h3>
+    <p>I mainly work on the development side, so my strengths are in programming areas like data analysis and computational modelling. I enjoy spending my free time in nature, especially when it snows a little, and by playing board games.</p>
+  </div>
+</div>
+
+<div class="member">
+  <img class="photo-right" src="/assets/images/member_photos/Fanni.jpg" alt="Fanni Soós">
+  <div class="member-text">
+    <h3>Fanni Soós, BSc </h3>
+    <p>I work as an assistant in the anatomy lab, where I support daily activities and pay close attention to precision and detail. I am proud of maintaining a clean, organized, and cosy lab environment, as I believe it contributes to better learning and work conditions. Outside the lab, I enjoy spending time reading and have a special fondness for cats.</p>
   </div>
 </div>
