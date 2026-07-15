@@ -5,6 +5,9 @@ title: News
 ## Publications:
 <a href="https://scholar.google.com/citations?user=OG3XeMYAAAAJ&hl=hu&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar </a>
 
+## Participation in the National Academy of Scientist Education Young Talent Program
+HillierLab Hosts a Student for a One-Week EEG Research Experience Through the Young Talent Science Summer Camp
+
 ## Opinion Article on the State of Hungarian Science Published in Telex
 *22 Jun, 2026*
 "The problem is not a lack of funding but institutional paralysis: why Hungarian science is falling behind." Group leader Dániel Hillier's opinion article in Telex, can be found <a
