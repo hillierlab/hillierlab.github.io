@@ -5,6 +5,20 @@ title: News
 ## Publications:
 <a href="https://scholar.google.com/citations?user=OG3XeMYAAAAJ&hl=hu&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar </a>
 
+## "The Problem Is Not a Lack of Funding but Institutional Paralysis: Why Hungarian Science Is Falling Behind."
+*22 Jun, 2026*
+Group leader Dániel Hillier's opinion article in Telex, can be found <a
+href="https://telex.hu/velemeny/2026/06/22/nem-a-penzhiany-a-baj-hanem-az-intezmenyi-benultsag-ezert-marad-le-a-magyar-tudomany)"
+   target="_blank"
+   rel="noopener noreferrer">here</a>.
+   The article received a positive response from the scientific community, with several researchers sharing their views on the issues raised by Dániel Hillier. Related commentary: <a
+href="https://telex.hu/velemeny/2026/06/23/tudomany-kutatasok-helyzete-finanszirozas-intezmenyi-benultsag-adminisztracio-megoldasok)"
+   target="_blank"
+   rel="noopener noreferrer">response 1 </a>.   and <a
+href="https://telex.hu/techtud/2026/06/26/kutatastamogatas-kutatasmenedzsment-hunarma)"
+target="_blank"
+   rel="noopener noreferrer">response 2 </a>. 
+   
 ## Frontiers in Immunology: CoreTIA, a modular, statistically robust transduction inhibition assay for AAV neutralization
 *20 Aug, 2025*
 This publication presents coreTIA, a key research outcome: an open-access framework that combines a standardized assay protocol with a statistically robust analysis pipeline for the accurate and reproducible measurement of neutralizing antibodies in AAV gene therapy. The article can be found <a href="https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1623848/full)"
