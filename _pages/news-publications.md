@@ -5,9 +5,9 @@ title: News
 ## Publications:
 <a href="https://scholar.google.com/citations?user=OG3XeMYAAAAJ&hl=hu&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar </a>
 
-## "The Problem Is Not a Lack of Funding but Institutional Paralysis: Why Hungarian Science Is Falling Behind."
+## Opinion Article on the State of Hungarian Science Published in Telex
 *22 Jun, 2026*
-Group leader Dániel Hillier's opinion article in Telex, can be found <a
+"The problem is not a lack of funding but institutional paralysis: why Hungarian science is falling behind." Group leader Dániel Hillier's opinion article in Telex, can be found <a
 href="https://telex.hu/velemeny/2026/06/22/nem-a-penzhiany-a-baj-hanem-az-intezmenyi-benultsag-ezert-marad-le-a-magyar-tudomany)"
    target="_blank"
    rel="noopener noreferrer">here</a>.
