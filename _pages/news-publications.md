@@ -6,7 +6,7 @@ title: News
 <a href="https://scholar.google.com/citations?user=OG3XeMYAAAAJ&hl=hu&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar </a>
 
 ## Participation in the National Academy of Scientist Education Young Talent Program
-HillierLab Hosts a Student for a One-Week EEG Research Experience Through the Young Talent Science Summer Camp
+HillierLab hosts a student for a one-week EEG research experience through the young talent science summer camp.
 
 ## Opinion Article on the State of Hungarian Science Published in Telex
 *22 Jun, 2026*
