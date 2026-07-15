@@ -14,7 +14,7 @@ href="https://telex.hu/velemeny/2026/06/22/nem-a-penzhiany-a-baj-hanem-az-intezm
    The article received a positive response from the scientific community, with several researchers sharing their views on the issues raised by Dániel Hillier. Related commentary: <a
 href="https://telex.hu/velemeny/2026/06/23/tudomany-kutatasok-helyzete-finanszirozas-intezmenyi-benultsag-adminisztracio-megoldasok)"
    target="_blank"
-   rel="noopener noreferrer">response 1 </a>.   and <a
+   rel="noopener noreferrer">response 1 </a> , <a
 href="https://telex.hu/techtud/2026/06/26/kutatastamogatas-kutatasmenedzsment-hunarma)"
 target="_blank"
    rel="noopener noreferrer">response 2 </a>. 
