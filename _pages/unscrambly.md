@@ -44,7 +44,7 @@ permalink: /unscrambly/
 </p>
 
 <p><em>02-04.11.2023</em> TINS visiting TTK, building up the bike-tunnel setup in the EEG lab (TTK)</p>
-<img class="photo-right" src="/assets/images/TINS_TTK.png" alt="Dániel Hillier">
+<img class="photo-right" src="/assets/images/TINS_ttk..png" alt="Dániel Hillier">
 
 <p><em>06.12.2023</em> TTK visiting the Semmelweis University, Ophthalmology, presenting the project with a short film, recruiting clinicians</p>
 
