@@ -8,3 +8,5 @@ collections:
   pages:
     output: true
     permalink: /:path/
+plugins:
+  - jekyll-redirect-from
